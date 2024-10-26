@@ -8,7 +8,10 @@ Potential characters
 5. Raichu
 6. Toad
 7. Tails
+8. Knuckles
+9. Shadow
 
 Extra Characters:
-Knuckles
-Shadow
+
+
+
