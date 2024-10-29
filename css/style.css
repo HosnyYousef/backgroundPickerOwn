@@ -35,8 +35,14 @@ li{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-#purple{
-  background: rgba(241,63,247,1);
+
+/* #body {
+
+} */
+
+#characterBox{
+  display: flex;
+  justify-content: center;
 }
 #green{
   background: rgba(0,253,81,1);
