@@ -55,28 +55,35 @@ body {
 
 
 #defaultBackgroundVideo {
-  /* display: inline-flex; */
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  border: 3px solid orange;
+  
   height: 200%;
-  width: 200%;
-  position:relative;
-
+  width: 250%;
+  /* float: right;
+  clear: both; */
+  /* position:; */
+  /* padding: 10, 0, 10, 0; */
 }
 
 #AllCharacters{
   display: inline-flex;
-  align-content: space-around;
+  /* align-content: space-around; */
   flex-wrap: wrap;
-  align-items: flex-end;
+  /* align-items: flex-end; */
+  justify-content: center;
   border: 3px solid orange;
-  float: right;
-  clear: both;
-  height: 90%;
-  width: 90%;
-  /* margin: 10px, 10px, 10px, 10px; */
+  /* float: right;
+  clear: both; */
+  /* height: 90%; */
+  width: 250%;
 }
 
 #characterBox{
-  border: 3px solid black;
+  border: 3px solid rgb(38, 252, 0);
   display: flex;
   height: 50%;
   position:relative;
