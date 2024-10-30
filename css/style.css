@@ -41,9 +41,18 @@ li{
 } */
 
 body {
-  background-image: url(img/smokePlaceHolderWebsiteBackground2.png);
-  /* background-color: #000000; */
+  background-color: #000000;
+  color: white;
 }
+
+body {
+    background-image: url(../img/smokePlaceHolderWebsiteBackground2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 
 #defaultBackgroundVideo {
   /* display: inline-flex; */
@@ -109,3 +118,5 @@ body {
   width: 94px;
   height: 65px;
 }
+
+
