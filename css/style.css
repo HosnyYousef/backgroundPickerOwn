@@ -40,6 +40,18 @@ li{
 
 } */
 
+body {
+  background-image: url(img/smokePlaceHolderWebsiteBackground2.png);
+  /* background-color: #000000; */
+}
+
+#defaultBackgroundVideo {
+  /* display: inline-flex; */
+  height: 200%;
+  width: 200%;
+  position:relative;
+
+}
 
 #AllCharacters{
   display: inline-flex;
