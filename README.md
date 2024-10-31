@@ -1,7 +1,7 @@
 
 Tasks:
 - add margin between both sides of videoPlaceholder and characters box (GET BACK TO THIS, REFINE)
-- increase size of character names
+- ~~increase size of character name~~
 - align character names
 
 - fix for iphone/phone responsiveness
