@@ -1,4 +1,15 @@
-Smash brothers character picker
+
+Tasks:
+- add margin between both sides of videoPlaceholder and characters box
+- align character names
+- increase size of character names
+- 
+- fix for iphone/phone responsiveness
+
+Mortal Combat character picker
+
+
+
 Potential characters
 
 1. mew

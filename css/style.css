@@ -58,27 +58,22 @@ body {
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
-  
+  position: relative;
+
   border: 3px solid orange;
   
   height: 200%;
   width: 250%;
-  /* float: right;
-  clear: both; */
-  /* position:; */
-  /* padding: 10, 0, 10, 0; */
 }
 
 #AllCharacters{
   display: inline-flex;
-  /* align-content: space-around; */
   flex-wrap: wrap;
-  /* align-items: flex-end; */
   justify-content: center;
+  position: relative;
+  
   border: 3px solid orange;
-  /* float: right;
-  clear: both; */
-  /* height: 90%; */
+
   width: 250%;
 }
 
