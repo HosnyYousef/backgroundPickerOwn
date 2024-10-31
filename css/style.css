@@ -60,9 +60,17 @@ body {
   justify-content: center;
   position: relative;
 
+  float: left;
+  clear: both;  
   border: 3px solid orange;
   
-  height: 200%;
+  margin: auto;
+  margin-top: 30%;
+  margin-bottom: 10%;
+  margin-left: 5%;
+  margin-right: 30%;
+  height: 100vh;
+  width: 200vh;
   width: 250%;
 }
 
@@ -70,12 +78,16 @@ body {
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
-  position: relative;
-  
-  border: 3px solid orange;
-
+  position: relative ;
+  border: 10px solid orange;
+  margin-left: 10% ;
+  margin-right: 20% ;
   width: 250%;
+  float: left;
+  clear: both;
 }
+
+/* have the size of #AllCharacters adjust to the window size */
 
 #characterBox{
   border: 3px solid rgb(38, 252, 0);
@@ -101,11 +113,17 @@ body {
 
 }
 
+
+
 .characters {
   height: 200%;
   width: 50%;
   float: left;
   clear: both;
+}
+
+.charName {
+  font-size: 4em;
 }
 
 #green{

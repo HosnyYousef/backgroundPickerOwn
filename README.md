@@ -1,9 +1,9 @@
 
 Tasks:
-- add margin between both sides of videoPlaceholder and characters box
-- align character names
+- add margin between both sides of videoPlaceholder and characters box (GET BACK TO THIS, REFINE)
 - increase size of character names
-- 
+- align character names
+
 - fix for iphone/phone responsiveness
 
 Mortal Combat character picker
