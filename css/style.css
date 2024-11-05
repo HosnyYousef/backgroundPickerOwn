@@ -71,7 +71,9 @@ body {
   margin-right: 30%;
   height: 100vh;
   width: 200vh;
-  width: 250%;
+  width: 290em;
+  /* contain: size;
+  contain-intrinsic-width: 100vw auto; */
 }
 
 #AllCharacters{
@@ -85,6 +87,8 @@ body {
   width: 250%;
   float: left;
   clear: both;
+  /* contain: size;
+  contain-intrinsic-width: 100vw auto; */
 }
 
 /* have the size of #AllCharacters adjust to the window size */
@@ -114,7 +118,6 @@ body {
 }
 
 
-
 .characters {
   height: 200%;
   width: 50%;
@@ -125,6 +128,8 @@ body {
 .charName {
   font-size: 4em;
   text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #green{
@@ -187,3 +192,7 @@ body {
   }  
 }
 
+/* html {
+  contain: size;
+  contain-intrinsic-width: 100vw auto;
+} */
