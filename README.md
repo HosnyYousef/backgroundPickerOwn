@@ -3,13 +3,25 @@
 Mortal Combat character picker
 
 Tasks:
-- add margin between both sides of videoPlaceholder and characters box (GET BACK TO THIS, REFINE)
+- ~~add margin between both sides of videoPlaceholder and characters box (GET BACK TO THIS, REFINE)~~
 - ~~increase size of character name~~
 - ~~align character names~~
 - ~~center text~~
 
+
+- 
+- Make the real list of characters (based on what midjourney can generate of the characters)
+- add photos for each character (midjourney)
+- add video for each character (midjourney & Runway)
+- create motion for midjounrey imgs with (Runway)
+- create eventlisteners for clicks to correspond to each video
+
+
+- make sure that character box is always with video when shrinking the page
 - set default responsiveness
 - in @media, figure out how to make image sizes smaller at different dimensions
+- we will adjust #postionOfText
+- we will adjust #defaultBackgroundVideo
 - fix for iphone/phone responsiveness
 
 
