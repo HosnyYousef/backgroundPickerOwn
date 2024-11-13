@@ -1,4 +1,7 @@
 
+
+Mortal Combat character picker
+
 Tasks:
 - add margin between both sides of videoPlaceholder and characters box (GET BACK TO THIS, REFINE)
 - ~~increase size of character name~~
@@ -9,7 +12,6 @@ Tasks:
 - in @media, figure out how to make image sizes smaller at different dimensions
 - fix for iphone/phone responsiveness
 
-Mortal Combat character picker
 
 
 

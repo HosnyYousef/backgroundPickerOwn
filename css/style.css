@@ -58,22 +58,58 @@ body {
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
-  position: relative;
+  position: fixed;
 
-  float: left;
-  clear: both;  
-  border: 3px solid orange;
+  /* float: left;
+  clear: both;   */
+  border: 3px solid rgb(0, 4, 255);
   
   margin: auto;
-  margin-top: 30%;
+  /* margin-top: 30%;
   margin-bottom: 10%;
-  margin-left: 5%;
-  margin-right: 30%;
-  height: 100vh;
-  width: 200vh;
-  width: 290em;
+  margin-left: 2%;
+  margin-right: 30%; */
+  height: 80vw;
+  width: 100vw;
+  /* width: 290em; */
   /* contain: size;
   contain-intrinsic-width: 100vw auto; */
+}
+
+#charSelectionContainer{
+  border: 10px pink;
+  
+}
+
+#postionOfText {
+  position: relative;
+  border: 5px pink;
+  margin: 20px;
+  z-index: 1;
+}
+
+#chosenCharacterName {
+ 
+  border: 5px pink;
+  z-index: 1;
+  margin: 20px;
+  position: absolute;
+  margin-left: 10%;
+  font-size: 3em;
+  left: -30vw;
+  /* float: left;
+  clear: both;  */
+
+}
+
+#pressXButtonToJoin {
+  border: 5px pink;
+  z-index: 1;
+  margin: 20px;
+  position: relative;
+  font-size: 3em;
+  right: -68%;
+
 }
 
 #AllCharacters{
@@ -82,13 +118,20 @@ body {
   justify-content: center;
   position: relative ;
   border: 10px solid orange;
-  margin-left: 10% ;
-  margin-right: 20% ;
-  width: 250%;
+  /* margin-left: 10% ; */
+  /* margin-right: 20% ; */
+  width: 100vw;
   float: left;
   clear: both;
   /* contain: size;
   contain-intrinsic-width: 100vw auto; */
+  /* moved to bottom of page */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 /* have the size of #AllCharacters adjust to the window size */
@@ -97,6 +140,7 @@ body {
   border: 3px solid rgb(38, 252, 0);
   display: flex;
   height: 50%;
+  /* width: 50vw; */
   position:relative;
   padding: 20px, 0, 20px, 0;
   /* margin-top:-100px; */
@@ -109,6 +153,7 @@ body {
   border: 3px solid red;
   /* margin-top:-100px; */
   height: 50%;
+  /* width: 30vw; */
   padding: 20px, 0, 20px, 0;
 
   position:relative;
@@ -117,47 +162,43 @@ body {
 
 }
 
-
-.characters {
-  height: 200%;
-  width: 50%;
-  float: left;
-  clear: both;
+.charImage {
+  height: 10vw;
+  width: 10vw;
+  margin: 1px;
 }
 
+.characters {
+  list-style-type: none;  
+  height: 10%;
+  width: 20%;
+  /* float: left;
+  clear: both; */
+}
+ 
 .charName {
-  font-size: 4em;
+  font-size: 1em;
   text-align: center;
   margin-left: 20px;
   margin-right: 20px;
 }
 
-#green{
-  background: rgba(0,253,81,1);
-}
-#blue{
-  background: rgba(0,254,255);
-}
-#red{
-  background: rgba(255, 0, 0, 1);
-  border: 3px solid black;
-  width: 94px;
-  height: 65px;
-}
 
 /* Responsiveness */
 /* ============================ */
 
 /* Mobile */
-@media screen and (min-width: 0) and (max-width: 768px) { 
+
+/* @media screen and (min-width: 0) and (max-width: 768px) { 
 
 	h1 { font-size: 9vw; padding: 2vh 0; }
 	h2 { font-size: 7vw; }
 	p  { font-size: 4vw; }
-}
+} */
   
 /* Tablet */
-@media screen and (min-width: 642px) and (max-width: 800px) { 
+
+/* @media screen and (min-width: 642px) and (max-width: 800px) { 
 
   body {
     width: 100%;
@@ -167,10 +208,11 @@ body {
 	h1 { font-size: 7vw; padding: 2vh 0; }
 	h2 { font-size: 5vw; }
 	p  { font-size: 3vw; }
-}
+} */
 
 /* Desktop */
-@media screen and (min-width: 800px) and (max-width: 1000px) { 
+
+/* @media screen and (min-width: 800px) and (max-width: 1000px) { 
   #defaultBackgroundVideo {
     display: inline-flex;
     flex-wrap: wrap;
@@ -190,7 +232,7 @@ body {
     width: 10vh;
     width: 250%;
   }  
-}
+} */
 
 /* html {
   contain: size;
