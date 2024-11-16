@@ -8,14 +8,9 @@ Tasks:
 - ~~align character names~~
 - ~~center text~~
 
-
-- 
-- Make the real list of characters (based on what midjourney can generate of the characters)
-- add photos for each character (midjourney)
-- add video for each character (midjourney & Runway)
-- create motion for midjounrey imgs with (Runway)
+- cut video to seperate clips
+- store videos one by one on files (to be able to push)
 - create eventlisteners for clicks to correspond to each video
-
 
 - make sure that character box is always with video when shrinking the page
 - set default responsiveness
@@ -25,7 +20,12 @@ Tasks:
 - fix for iphone/phone responsiveness
 
 
-
+<!-- if creating unique characters -->
+- Ask Moe how to place faces generated images
+- Make the real list of characters (based on what midjourney can generate of the characters)
+- add photos for each character (midjourney)
+- add video for each character (midjourney & Runway)
+- create motion for midjounrey imgs with (Runway)
 
 Potential characters
 
