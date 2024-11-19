@@ -8,7 +8,7 @@
 	<source src="video/characters/noobsaibot.mov" type="video/webm">
   </video> */}
 
-document.querySelector(".charImage").style.display = 'none'
+// document.querySelector(".charImage").style.display = 'none'
 
 document.getElementById('player1').onclick = function () {
 document.getElementById('playVidPlayer1').play();
