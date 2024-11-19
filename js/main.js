@@ -1,4 +1,8 @@
+
+document.querySelector('#player1').addEventListener('click', runPlayer1)
+
 document.getElementById('#player1').onclick = runPlayer1
+
 document.getElementById('green').onclick = partyGreen
 document.getElementById('blue').onclick = partyBlue
 document.getElementById('red').onclick = partyRed
