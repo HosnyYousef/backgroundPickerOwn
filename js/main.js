@@ -1,18 +1,77 @@
 
 
-// var videos = document.getElementsByClassName('videoChar');
-// for (i = 0; i < videos.length;i++ ) {
-//     videos[i].style.display = "none";
-//     // videos[i].style.visibility = "charImage";
-// }
-// document.querySelector('#nikki').classList.toggle('charImage')
+//play video
+// I want to stop the other videos from play when this is clicked
+// I want to hide: 
 
+{/* <video id="playVidPlayer18" class="videoChar charImage">
+	<source src="video/characters/noobsaibot.mov" type="video/webm">
+  </video> */}
 
-// document.getElementById('player1').onclick = function () {
-// document.getElementById('playVidPlayer1').style.display
-// // document.getElementById('playVidPlayer1').style.visibility = "visible";
-// document.getElementById('playVidPlayer1').play();
-// };
+document.querySelector(".charImage").style.display = 'none'
+
+document.getElementById('player1').onclick = function () {
+document.getElementById('playVidPlayer1').play();
+};
+
+document.getElementById('player2').onclick = function () {  document.getElementById('playVidPlayer2').play();
+};
+
+document.getElementById('player3').onclick = function () {
+document.getElementById('playVidPlayer3').play();
+};
+
+document.getElementById('player4').onclick = function () {  document.getElementById('playVidPlayer4').play();
+};
+
+document.getElementById('player5').onclick = function () {
+document.getElementById('playVidPlayer5').play();
+};
+
+document.getElementById('player6').onclick = function () {  document.getElementById('playVidPlayer6').play();
+};
+
+document.getElementById('player7').onclick = function () {
+document.getElementById('playVidPlayer7').play();
+};
+
+document.getElementById('player8').onclick = function () {  document.getElementById('playVidPlayer8').play();
+};
+
+document.getElementById('player9').onclick = function () {
+document.getElementById('playVidPlayer9').play();
+};
+
+document.getElementById('player10').onclick = function () {  document.getElementById('playVidPlayer10').play();
+};
+
+document.getElementById('player11').onclick = function () {
+document.getElementById('playVidPlayer11').play();
+};
+
+document.getElementById('player12').onclick = function () {  document.getElementById('playVidPlayer12').play();
+};
+
+document.getElementById('player13').onclick = function () {
+document.getElementById('playVidPlayer13').play();
+};
+
+document.getElementById('player14').onclick = function () {  document.getElementById('playVidPlayer14').play();
+};
+
+document.getElementById('player15').onclick = function () {
+document.getElementById('playVidPlayer15').play();
+};
+
+document.getElementById('player16').onclick = function () {  document.getElementById('playVidPlayer16').play();
+};
+
+document.getElementById('player17').onclick = function () {
+document.getElementById('playVidPlayer17').play();
+};
+
+document.getElementById('player18').onclick = function () {  document.getElementById('playVidPlayer18').play();
+};
 
 // hide others
 // thevideo stored in variable
@@ -449,46 +508,46 @@ function runPlayer18() {
 // toggle end
 
 
-document.getElementById('player2').onclick = function () {
+// document.getElementById('player2').onclick = function () {
 
   
-  document.getElementById('playVidPlayer2').play();
+//   document.getElementById('playVidPlayer2').play();
   
-};
+// };
 
 
 
 // EXTRA STUFF BELOW
 
-document.getElementById('playVid').onclick = function () {
-  document.getElementById('video').play();
-};
+// document.getElementById('playVid').onclick = function () {
+//   document.getElementById('video').play();
+// };
 
-document.querySelector('#playVidPlayer1').addEventListener('click', runPlayer1)
+// document.querySelector('#playVidPlayer1').addEventListener('click', runPlayer1)
 
-document.getElementById('#player1').onclick = runPlayer1
+// document.getElementById('#player1').onclick = runPlayer1
 
-document.getElementById('green').onclick = partyGreen
-document.getElementById('blue').onclick = partyBlue
-document.getElementById('red').onclick = partyRed
+// document.getElementById('green').onclick = partyGreen
+// document.getElementById('blue').onclick = partyBlue
+// document.getElementById('red').onclick = partyRed
 
 
-function runPlayer1() {
-  document.querySelector('#vidPlayer1').style.background = 'video/characters/baraka.mov'
-  document.querySelector('body').style.color = 'pink'
-}
+// function runPlayer1() {
+//   document.querySelector('#vidPlayer1').style.background = 'video/characters/baraka.mov'
+//   document.querySelector('body').style.color = 'pink'
+// }
 
-function partyGreen() {
-  document.querySelector('body').style.backgroundColor = 'rgba(0,253,81,1)'
-  document.querySelector('body').style.color = 'white'
-}
+// function partyGreen() {
+//   document.querySelector('body').style.backgroundColor = 'rgba(0,253,81,1)'
+//   document.querySelector('body').style.color = 'white'
+// }
 
-function partyBlue() {
-  document.querySelector('body').style.backgroundColor = 'rgba(0,254,255)'
-  document.querySelector('body').style.color = 'white'
-}
+// function partyBlue() {
+//   document.querySelector('body').style.backgroundColor = 'rgba(0,254,255)'
+//   document.querySelector('body').style.color = 'white'
+// }
 
-function partyRed() {
-  document.querySelector('body').style.backgroundColor = 'rgba(255,0,0,1)'
-  document.querySelector('body').style.color = 'white'
-}
+// function partyRed() {
+//   document.querySelector('body').style.backgroundColor = 'rgba(255,0,0,1)'
+//   document.querySelector('body').style.color = 'white'
+// }
