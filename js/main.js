@@ -1,5 +1,16 @@
 
-document.querySelector('#player1').addEventListener('click', runPlayer1)
+
+document.getElementById('player1').onclick = function () {
+  document.getElementById('playVidPlayer1').play();
+};
+
+
+
+document.getElementById('playVid').onclick = function () {
+  document.getElementById('video').play();
+};
+
+document.querySelector('#playVidPlayer1').addEventListener('click', runPlayer1)
 
 document.getElementById('#player1').onclick = runPlayer1
 
@@ -9,8 +20,8 @@ document.getElementById('red').onclick = partyRed
 
 
 function runPlayer1() {
-  document.querySelector('body').style.backgroundColor = 'rgba(241,63,247,1)'
-  document.querySelector('body').style.color = 'white'
+  document.querySelector('#vidPlayer1').style.background = 'video/characters/baraka.mov'
+  document.querySelector('body').style.color = 'pink'
 }
 
 function partyGreen() {

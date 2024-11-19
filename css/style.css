@@ -53,6 +53,19 @@ body {
     background-attachment: fixed;
 }
 
+.videoChar {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: fixed;
+
+  border: 3px solid rgb(0, 4, 255);
+  
+  margin: auto;
+  height: auto;
+  width: 100vw;
+}
+
 
 #defaultBackgroundVideo {
   display: inline-flex;
