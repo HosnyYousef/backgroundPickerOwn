@@ -1,14 +1,459 @@
 
 
-document.getElementById('player1').onclick = function () {
-  document.getElementById('playVidPlayer1').play();
-};
+// var videos = document.getElementsByClassName('videoChar');
+// for (i = 0; i < videos.length;i++ ) {
+//     videos[i].style.display = "none";
+//     // videos[i].style.visibility = "charImage";
+// }
+// document.querySelector('#nikki').classList.toggle('charImage')
+
+
+// document.getElementById('player1').onclick = function () {
+// document.getElementById('playVidPlayer1').style.display
+// // document.getElementById('playVidPlayer1').style.visibility = "visible";
+// document.getElementById('playVidPlayer1').play();
+// };
+
+// hide others
+// thevideo stored in variable
+const player1 = document.querySelector('#playVidPlayer1')
+const player2 = document.querySelector('#playVidPlayer2')
+const player3 = document.querySelector('#playVidPlayer3')
+
+const player4 = document.querySelector('#playVidPlayer4')
+const player5 = document.querySelector('#playVidPlayer5')
+const player6 = document.querySelector('#playVidPlayer6')
+
+const player7 = document.querySelector('#playVidPlayer7')
+const player8 = document.querySelector('#playVidPlayer8')
+const player9 = document.querySelector('#playVidPlayer9')
+
+const player10 = document.querySelector('#playVidPlayer10')
+const player11 = document.querySelector('#playVidPlayer11')
+const player12 = document.querySelector('#playVidPlayer12')
+
+const player13 = document.querySelector('#playVidPlayer13')
+const player14 = document.querySelector('#playVidPlayer14')
+const player15 = document.querySelector('#playVidPlayer15')
+
+const player16 = document.querySelector('#playVidPlayer16')
+const player17 = document.querySelector('#playVidPlayer17')
+const player18 = document.querySelector('#playVidPlayer18')
+
+
+//event listener for click on image
+document.querySelector('#player1').addEventListener('click', runPlayer1)
+document.querySelector('#player2').addEventListener('click', runPlayer2)
+document.querySelector('#player3').addEventListener('click', runPlayer3)
+
+document.querySelector('#player4').addEventListener('click', runPlayer4)
+document.querySelector('#player5').addEventListener('click', runPlayer5)
+document.querySelector('#player6').addEventListener('click', runPlayer6)
+
+document.querySelector('#player7').addEventListener('click', runPlayer7)
+document.querySelector('#player8').addEventListener('click', runPlayer8)
+document.querySelector('#player9').addEventListener('click', runPlayer9)
+
+document.querySelector('#player10').addEventListener('click', runPlayer10)
+document.querySelector('#player11').addEventListener('click', runPlayer11)
+document.querySelector('#player12').addEventListener('click', runPlayer12)
+
+document.querySelector('#player13').addEventListener('click', runPlayer13)
+document.querySelector('#player14').addEventListener('click', runPlayer14)
+document.querySelector('#player15').addEventListener('click', runPlayer15)
+
+document.querySelector('#player16').addEventListener('click', runPlayer16)
+document.querySelector('#player17').addEventListener('click', runPlayer17)
+document.querySelector('#player18').addEventListener('click', runPlayer18)
+
+
+
+function runPlayer1() {
+  player1.classList.toggle('charImage');
+  player2.classList.add('charImage');
+  player3.classList.add('charImage');
+  player4.classList.add('charImage');
+  player5.classList.add('charImage');
+  player6.classList.add('charImage');
+  player7.classList.add('charImage');
+  player8.classList.add('charImage');
+  player9.classList.add('charImage');
+  player10.classList.add('charImage');
+  player11.classList.add('charImage');
+  player12.classList.add('charImage');
+  player13.classList.add('charImage');
+  player14.classList.add('charImage');
+  player15.classList.add('charImage');
+  player16.classList.add('charImage');
+  player17.classList.add('charImage');
+  player18.classList.add('charImage');
+}
+
+function runPlayer2() {
+  player1.classList.add('charImage');
+  player2.classList.toggle('charImage');
+  player3.classList.add('charImage');
+  player4.classList.add('charImage');
+  player5.classList.add('charImage');
+  player6.classList.add('charImage');
+  player7.classList.add('charImage');
+  player8.classList.add('charImage');
+  player9.classList.add('charImage');
+  player10.classList.add('charImage');
+  player11.classList.add('charImage');
+  player12.classList.add('charImage');
+  player13.classList.add('charImage');
+  player14.classList.add('charImage');
+  player15.classList.add('charImage');
+  player16.classList.add('charImage');
+  player17.classList.add('charImage');
+  player18.classList.add('charImage');
+}
+
+function runPlayer3() {
+  player1.classList.add('charImage');
+  player2.classList.add('charImage');
+  player3.classList.toggle('charImage');
+  player4.classList.add('charImage');
+  player5.classList.add('charImage');
+  player6.classList.add('charImage');
+  player7.classList.add('charImage');
+  player8.classList.add('charImage');
+  player9.classList.add('charImage');
+  player10.classList.add('charImage');
+  player11.classList.add('charImage');
+  player12.classList.add('charImage');
+  player13.classList.add('charImage');
+  player14.classList.add('charImage');
+  player15.classList.add('charImage');
+  player16.classList.add('charImage');
+  player17.classList.add('charImage');
+  player18.classList.add('charImage');
+}
+
+function runPlayer4() {
+  player1.classList.add('charImage');
+  player2.classList.add('charImage');
+  player3.classList.add('charImage');
+  player4.classList.toggle('charImage');
+  player5.classList.add('charImage');
+  player6.classList.add('charImage');
+  player7.classList.add('charImage');
+  player8.classList.add('charImage');
+  player9.classList.add('charImage');
+  player10.classList.add('charImage');
+  player11.classList.add('charImage');
+  player12.classList.add('charImage');
+  player13.classList.add('charImage');
+  player14.classList.add('charImage');
+  player15.classList.add('charImage');
+  player16.classList.add('charImage');
+  player17.classList.add('charImage');
+  player18.classList.add('charImage');
+}
+
+function runPlayer5() {
+  player1.classList.add('charImage');
+  player2.classList.add('charImage');
+  player3.classList.add('charImage');
+  player4.classList.add('charImage');
+  player5.classList.toggle('charImage');
+  player6.classList.add('charImage');
+  player7.classList.add('charImage');
+  player8.classList.add('charImage');
+  player9.classList.add('charImage');
+  player10.classList.add('charImage');
+  player11.classList.add('charImage');
+  player12.classList.add('charImage');
+  player13.classList.add('charImage');
+  player14.classList.add('charImage');
+  player15.classList.add('charImage');
+  player16.classList.add('charImage');
+  player17.classList.add('charImage');
+  player18.classList.add('charImage');
+}
+
+function runPlayer6() {
+  player1.classList.add('charImage');
+  player2.classList.add('charImage');
+  player3.classList.add('charImage');
+  player4.classList.add('charImage');
+  player5.classList.add('charImage');
+  player6.classList.toggle('charImage');
+  player7.classList.add('charImage');
+  player8.classList.add('charImage');
+  player9.classList.add('charImage');
+  player10.classList.add('charImage');
+  player11.classList.add('charImage');
+  player12.classList.add('charImage');
+  player13.classList.add('charImage');
+  player14.classList.add('charImage');
+  player15.classList.add('charImage');
+  player16.classList.add('charImage');
+  player17.classList.add('charImage');
+  player18.classList.add('charImage');
+}
+
+function runPlayer7() {
+  player1.classList.add('charImage');
+  player2.classList.add('charImage');
+  player3.classList.add('charImage');
+  player4.classList.add('charImage');
+  player5.classList.add('charImage');
+  player6.classList.add('charImage');
+  player7.classList.toggle('charImage');
+  player8.classList.add('charImage');
+  player9.classList.add('charImage');
+  player10.classList.add('charImage');
+  player11.classList.add('charImage');
+  player12.classList.add('charImage');
+  player13.classList.add('charImage');
+  player14.classList.add('charImage');
+  player15.classList.add('charImage');
+  player16.classList.add('charImage');
+  player17.classList.add('charImage');
+  player18.classList.add('charImage');
+}
+
+function runPlayer8() {
+  player1.classList.add('charImage');
+  player2.classList.add('charImage');
+  player3.classList.add('charImage');
+  player4.classList.add('charImage');
+  player5.classList.add('charImage');
+  player6.classList.add('charImage');
+  player7.classList.add('charImage');
+  player8.classList.toggle('charImage');
+  player9.classList.add('charImage');
+  player10.classList.add('charImage');
+  player11.classList.add('charImage');
+  player12.classList.add('charImage');
+  player13.classList.add('charImage');
+  player14.classList.add('charImage');
+  player15.classList.add('charImage');
+  player16.classList.add('charImage');
+  player17.classList.add('charImage');
+  player18.classList.add('charImage');
+}
+
+function runPlayer9() {
+  player1.classList.add('charImage');
+  player2.classList.add('charImage');
+  player3.classList.add('charImage');
+  player4.classList.add('charImage');
+  player5.classList.add('charImage');
+  player6.classList.add('charImage');
+  player7.classList.add('charImage');
+  player8.classList.add('charImage');
+  player9.classList.toggle('charImage');
+  player10.classList.add('charImage');
+  player11.classList.add('charImage');
+  player12.classList.add('charImage');
+  player13.classList.add('charImage');
+  player14.classList.add('charImage');
+  player15.classList.add('charImage');
+  player16.classList.add('charImage');
+  player17.classList.add('charImage');
+  player18.classList.add('charImage');
+}
+
+function runPlayer10() {
+  player1.classList.add('charImage');
+  player2.classList.add('charImage');
+  player3.classList.add('charImage');
+  player4.classList.add('charImage');
+  player5.classList.add('charImage');
+  player6.classList.add('charImage');
+  player7.classList.add('charImage');
+  player8.classList.add('charImage');
+  player9.classList.add('charImage');
+  player10.classList.toggle('charImage');
+  player11.classList.add('charImage');
+  player12.classList.add('charImage');
+  player13.classList.add('charImage');
+  player14.classList.add('charImage');
+  player15.classList.add('charImage');
+  player16.classList.add('charImage');
+  player17.classList.add('charImage');
+  player18.classList.add('charImage');
+}
+
+function runPlayer11() {
+  player1.classList.add('charImage');
+  player2.classList.add('charImage');
+  player3.classList.add('charImage');
+  player4.classList.add('charImage');
+  player5.classList.add('charImage');
+  player6.classList.add('charImage');
+  player7.classList.add('charImage');
+  player8.classList.add('charImage');
+  player9.classList.add('charImage');
+  player10.classList.add('charImage');
+  player11.classList.toggle('charImage');
+  player12.classList.add('charImage');
+  player13.classList.add('charImage');
+  player14.classList.add('charImage');
+  player15.classList.add('charImage');
+  player16.classList.add('charImage');
+  player17.classList.add('charImage');
+  player18.classList.add('charImage');
+}
+
+function runPlayer12() {
+  player1.classList.add('charImage');
+  player2.classList.add('charImage');
+  player3.classList.add('charImage');
+  player4.classList.add('charImage');
+  player5.classList.add('charImage');
+  player6.classList.add('charImage');
+  player7.classList.add('charImage');
+  player8.classList.add('charImage');
+  player9.classList.add('charImage');
+  player10.classList.add('charImage');
+  player11.classList.add('charImage');
+  player12.classList.toggle('charImage');
+  player13.classList.add('charImage');
+  player14.classList.add('charImage');
+  player15.classList.add('charImage');
+  player16.classList.add('charImage');
+  player17.classList.add('charImage');
+  player18.classList.add('charImage');
+}
+
+function runPlayer13() {
+  player1.classList.add('charImage');
+  player2.classList.add('charImage');
+  player3.classList.add('charImage');
+  player4.classList.add('charImage');
+  player5.classList.add('charImage');
+  player6.classList.add('charImage');
+  player7.classList.add('charImage');
+  player8.classList.add('charImage');
+  player9.classList.add('charImage');
+  player10.classList.add('charImage');
+  player11.classList.add('charImage');
+  player12.classList.add('charImage');
+  player13.classList.toggle('charImage');
+  player14.classList.add('charImage');
+  player15.classList.add('charImage');
+  player16.classList.add('charImage');
+  player17.classList.add('charImage');
+  player18.classList.add('charImage');
+}
+
+function runPlayer14() {
+  player1.classList.add('charImage');
+  player2.classList.add('charImage');
+  player3.classList.add('charImage');
+  player4.classList.add('charImage');
+  player5.classList.add('charImage');
+  player6.classList.add('charImage');
+  player7.classList.add('charImage');
+  player8.classList.add('charImage');
+  player9.classList.add('charImage');
+  player10.classList.add('charImage');
+  player11.classList.add('charImage');
+  player12.classList.add('charImage');
+  player13.classList.add('charImage');
+  player14.classList.toggle('charImage');
+  player15.classList.add('charImage');
+  player16.classList.add('charImage');
+  player17.classList.add('charImage');
+  player18.classList.add('charImage');
+}
+
+function runPlayer15() {
+  player1.classList.add('charImage');
+  player2.classList.add('charImage');
+  player3.classList.add('charImage');
+  player4.classList.add('charImage');
+  player5.classList.add('charImage');
+  player6.classList.add('charImage');
+  player7.classList.add('charImage');
+  player8.classList.add('charImage');
+  player9.classList.add('charImage');
+  player10.classList.add('charImage');
+  player11.classList.add('charImage');
+  player12.classList.add('charImage');
+  player13.classList.add('charImage');
+  player14.classList.add('charImage');
+  player15.classList.toggle('charImage');
+  player16.classList.add('charImage');
+  player17.classList.add('charImage');
+  player18.classList.add('charImage');
+}
+
+function runPlayer16() {
+  player1.classList.add('charImage');
+  player2.classList.add('charImage');
+  player3.classList.add('charImage');
+  player4.classList.add('charImage');
+  player5.classList.add('charImage');
+  player6.classList.add('charImage');
+  player7.classList.add('charImage');
+  player8.classList.add('charImage');
+  player9.classList.add('charImage');
+  player10.classList.add('charImage');
+  player11.classList.add('charImage');
+  player12.classList.add('charImage');
+  player13.classList.add('charImage');
+  player14.classList.add('charImage');
+  player15.classList.add('charImage');
+  player16.classList.toggle('charImage');
+  player17.classList.add('charImage');
+  player18.classList.add('charImage');
+}
+
+function runPlayer17() {
+  player1.classList.add('charImage');
+  player2.classList.add('charImage');
+  player3.classList.add('charImage');
+  player4.classList.add('charImage');
+  player5.classList.add('charImage');
+  player6.classList.add('charImage');
+  player7.classList.add('charImage');
+  player8.classList.add('charImage');
+  player9.classList.add('charImage');
+  player10.classList.add('charImage');
+  player11.classList.add('charImage');
+  player12.classList.add('charImage');
+  player13.classList.add('charImage');
+  player14.classList.add('charImage');
+  player15.classList.add('charImage');
+  player16.classList.add('charImage');
+  player17.classList.toggle('charImage');
+  player18.classList.add('charImage');
+}
+
+function runPlayer18() {
+  player1.classList.add('charImage');
+  player2.classList.add('charImage');
+  player3.classList.add('charImage');
+  player4.classList.add('charImage');
+  player5.classList.add('charImage');
+  player6.classList.add('charImage');
+  player7.classList.add('charImage');
+  player8.classList.add('charImage');
+  player9.classList.add('charImage');
+  player10.classList.add('charImage');
+  player11.classList.add('charImage');
+  player12.classList.add('charImage');
+  player13.classList.add('charImage');
+  player14.classList.add('charImage');
+  player15.classList.add('charImage');
+  player16.classList.add('charImage');
+  player17.classList.add('charImage');
+  player18.classList.toggle('charImage');
+}
+
+// toggle end
 
 
 document.getElementById('player2').onclick = function () {
 
-  document.getElementsByClassName('videoChar').style = 'hide'
+  
   document.getElementById('playVidPlayer2').play();
+  
 };
 
 
