@@ -8,7 +8,7 @@ Tasks:
 - ~~align character names~~
 - ~~center text~~
 
-- cut video to seperate clips
+- ~~cut video to seperate clips~~
 - store videos one by one on files (to be able to push)
 - create eventlisteners for clicks to correspond to each video
 
@@ -18,6 +18,11 @@ Tasks:
 - we will adjust #postionOfText
 - we will adjust #defaultBackgroundVideo
 - fix for iphone/phone responsiveness
+
+- Mortal kombat 9 Characters:
+	https://www.mksecrets.net/index.php?section=mk9&lang=eng&contentID=4843
+
+
 
 
 <!-- if creating unique characters -->
