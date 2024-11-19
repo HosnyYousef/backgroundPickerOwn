@@ -6,6 +6,8 @@ document.getElementById('player1').onclick = function () {
 
 
 
+// EXTRA STUFF BELOW
+
 document.getElementById('playVid').onclick = function () {
   document.getElementById('video').play();
 };
