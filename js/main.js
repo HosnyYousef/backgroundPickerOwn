@@ -5,6 +5,13 @@ document.getElementById('player1').onclick = function () {
 };
 
 
+document.getElementById('player2').onclick = function () {
+
+  document.getElementsByClassName('videoChar').style = 'hide'
+  document.getElementById('playVidPlayer2').play();
+};
+
+
 
 // EXTRA STUFF BELOW
 
