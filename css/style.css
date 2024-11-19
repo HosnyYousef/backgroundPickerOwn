@@ -46,7 +46,7 @@ body {
 }
 
 body {
-    background-image: url(../img/smokePlaceHolderWebsiteBackground2.png);
+    /* background-image: url(../img/smokePlaceHolderWebsiteBackground2.png); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
