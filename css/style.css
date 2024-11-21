@@ -57,13 +57,17 @@ body {
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
-  position: fixed;
+  position: absolute;
 
   border: 3px solid rgb(0, 4, 255);
   
   margin: auto;
   height: auto;
   width: 100vw;
+}
+
+#lastElementChar{
+  margin: auto;
 }
 
 /* .videoSize {

@@ -128,7 +128,7 @@ document.querySelector('#player18').addEventListener('click', runPlayer18)
 
 
 function runPlayer1() {
-  player1.classList.toggle('charImage');
+  player1.classList.remove('charImage');
   player2.classList.add('charImage');
   player3.classList.add('charImage');
   player4.classList.add('charImage');
@@ -150,7 +150,7 @@ function runPlayer1() {
 
 function runPlayer2() {
   player1.classList.add('charImage');
-  player2.classList.toggle('charImage');
+  player2.classList.remove('charImage');
   player3.classList.add('charImage');
   player4.classList.add('charImage');
   player5.classList.add('charImage');
@@ -172,7 +172,7 @@ function runPlayer2() {
 function runPlayer3() {
   player1.classList.add('charImage');
   player2.classList.add('charImage');
-  player3.classList.toggle('charImage');
+  player3.classList.remove('charImage');
   player4.classList.add('charImage');
   player5.classList.add('charImage');
   player6.classList.add('charImage');
@@ -194,7 +194,7 @@ function runPlayer4() {
   player1.classList.add('charImage');
   player2.classList.add('charImage');
   player3.classList.add('charImage');
-  player4.classList.toggle('charImage');
+  player4.classList.remove('charImage');
   player5.classList.add('charImage');
   player6.classList.add('charImage');
   player7.classList.add('charImage');
@@ -216,7 +216,7 @@ function runPlayer5() {
   player2.classList.add('charImage');
   player3.classList.add('charImage');
   player4.classList.add('charImage');
-  player5.classList.toggle('charImage');
+  player5.classList.remove('charImage');
   player6.classList.add('charImage');
   player7.classList.add('charImage');
   player8.classList.add('charImage');
@@ -238,7 +238,7 @@ function runPlayer6() {
   player3.classList.add('charImage');
   player4.classList.add('charImage');
   player5.classList.add('charImage');
-  player6.classList.toggle('charImage');
+  player6.classList.remove('charImage');
   player7.classList.add('charImage');
   player8.classList.add('charImage');
   player9.classList.add('charImage');
@@ -260,7 +260,7 @@ function runPlayer7() {
   player4.classList.add('charImage');
   player5.classList.add('charImage');
   player6.classList.add('charImage');
-  player7.classList.toggle('charImage');
+  player7.classList.remove('charImage');
   player8.classList.add('charImage');
   player9.classList.add('charImage');
   player10.classList.add('charImage');
@@ -282,7 +282,7 @@ function runPlayer8() {
   player5.classList.add('charImage');
   player6.classList.add('charImage');
   player7.classList.add('charImage');
-  player8.classList.toggle('charImage');
+  player8.classList.remove('charImage');
   player9.classList.add('charImage');
   player10.classList.add('charImage');
   player11.classList.add('charImage');
@@ -304,7 +304,7 @@ function runPlayer9() {
   player6.classList.add('charImage');
   player7.classList.add('charImage');
   player8.classList.add('charImage');
-  player9.classList.toggle('charImage');
+  player9.classList.remove('charImage');
   player10.classList.add('charImage');
   player11.classList.add('charImage');
   player12.classList.add('charImage');
@@ -326,7 +326,7 @@ function runPlayer10() {
   player7.classList.add('charImage');
   player8.classList.add('charImage');
   player9.classList.add('charImage');
-  player10.classList.toggle('charImage');
+  player10.classList.remove('charImage');
   player11.classList.add('charImage');
   player12.classList.add('charImage');
   player13.classList.add('charImage');
@@ -348,7 +348,7 @@ function runPlayer11() {
   player8.classList.add('charImage');
   player9.classList.add('charImage');
   player10.classList.add('charImage');
-  player11.classList.toggle('charImage');
+  player11.classList.remove('charImage');
   player12.classList.add('charImage');
   player13.classList.add('charImage');
   player14.classList.add('charImage');
@@ -370,7 +370,7 @@ function runPlayer12() {
   player9.classList.add('charImage');
   player10.classList.add('charImage');
   player11.classList.add('charImage');
-  player12.classList.toggle('charImage');
+  player12.classList.remove('charImage');
   player13.classList.add('charImage');
   player14.classList.add('charImage');
   player15.classList.add('charImage');
@@ -392,7 +392,7 @@ function runPlayer13() {
   player10.classList.add('charImage');
   player11.classList.add('charImage');
   player12.classList.add('charImage');
-  player13.classList.toggle('charImage');
+  player13.classList.remove('charImage');
   player14.classList.add('charImage');
   player15.classList.add('charImage');
   player16.classList.add('charImage');
@@ -414,7 +414,7 @@ function runPlayer14() {
   player11.classList.add('charImage');
   player12.classList.add('charImage');
   player13.classList.add('charImage');
-  player14.classList.toggle('charImage');
+  player14.classList.remove('charImage');
   player15.classList.add('charImage');
   player16.classList.add('charImage');
   player17.classList.add('charImage');
@@ -436,7 +436,7 @@ function runPlayer15() {
   player12.classList.add('charImage');
   player13.classList.add('charImage');
   player14.classList.add('charImage');
-  player15.classList.toggle('charImage');
+  player15.classList.remove('charImage');
   player16.classList.add('charImage');
   player17.classList.add('charImage');
   player18.classList.add('charImage');
@@ -458,7 +458,7 @@ function runPlayer16() {
   player13.classList.add('charImage');
   player14.classList.add('charImage');
   player15.classList.add('charImage');
-  player16.classList.toggle('charImage');
+  player16.classList.remove('charImage');
   player17.classList.add('charImage');
   player18.classList.add('charImage');
 }
@@ -480,7 +480,7 @@ function runPlayer17() {
   player14.classList.add('charImage');
   player15.classList.add('charImage');
   player16.classList.add('charImage');
-  player17.classList.toggle('charImage');
+  player17.classList.remove('charImage');
   player18.classList.add('charImage');
 }
 
@@ -502,7 +502,7 @@ function runPlayer18() {
   player15.classList.add('charImage');
   player16.classList.add('charImage');
   player17.classList.add('charImage');
-  player18.classList.toggle('charImage');
+  player18.classList.remove('charImage');
 }
 
 // toggle end
