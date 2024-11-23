@@ -143,24 +143,24 @@ function toggle() {
 }
 
 function runPlayer1() {
-  player1.classList.remove('videos');
-  player2.classList.add('videos');
-  player3.classList.add('videos');
-  player4.classList.add('videos');
-  player5.classList.add('videos');
-  player6.classList.add('videos');
-  player7.classList.add('videos');
-  player8.classList.add('videos');
-  player9.classList.add('videos');
-  player10.classList.add('videos');
-  player11.classList.add('videos');
-  player12.classList.add('videos');
-  player13.classList.add('videos');
-  player14.classList.add('videos');
-  player15.classList.add('videos');
-  player16.classList.add('videos');
-  player17.classList.add('videos');
-  player18.classList.add('videos');
+  player1.classList.remove('charImage');
+  player2.classList.add('charImage');
+  player3.classList.add('charImage');
+  player4.classList.add('charImage');
+  player5.classList.add('charImage');
+  player6.classList.add('charImage');
+  player7.classList.add('charImage');
+  player8.classList.add('charImage');
+  player9.classList.add('charImage');
+  player10.classList.add('charImage');
+  player11.classList.add('charImage');
+  player12.classList.add('charImage');
+  player13.classList.add('charImage');
+  player14.classList.add('charImage');
+  player15.classList.add('charImage');
+  player16.classList.add('charImage');
+  player17.classList.add('charImage');
+  player18.classList.add('charImage');
 }
 
 function runPlayer2() {
