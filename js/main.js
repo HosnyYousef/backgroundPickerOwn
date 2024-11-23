@@ -10,6 +10,15 @@
 
 // document.querySelector(".charImage").style.display = 'none'
 
+
+function toggle() {
+  let videos = document.querySelector('.videos');
+  let video = document.querySelector('video');
+  videos.classList.toggle("active");
+  video.pause();
+  video.currentTime = 0;
+}
+
 document.getElementById('player1').onclick = function () {
 document.getElementById('playVidPlayer1').play();
 };
@@ -127,383 +136,383 @@ document.querySelector('#player18').addEventListener('click', runPlayer18)
 
 
 
-function runPlayer1() {
-  player1.classList.remove('charImage');
-  player2.classList.add('charImage');
-  player3.classList.add('charImage');
-  player4.classList.add('charImage');
-  player5.classList.add('charImage');
-  player6.classList.add('charImage');
-  player7.classList.add('charImage');
-  player8.classList.add('charImage');
-  player9.classList.add('charImage');
-  player10.classList.add('charImage');
-  player11.classList.add('charImage');
-  player12.classList.add('charImage');
-  player13.classList.add('charImage');
-  player14.classList.add('charImage');
-  player15.classList.add('charImage');
-  player16.classList.add('charImage');
-  player17.classList.add('charImage');
-  player18.classList.add('charImage');
-}
+// function runPlayer1() {
+//   player1.classList.remove('charImage');
+//   player2.classList.add('charImage');
+//   player3.classList.add('charImage');
+//   player4.classList.add('charImage');
+//   player5.classList.add('charImage');
+//   player6.classList.add('charImage');
+//   player7.classList.add('charImage');
+//   player8.classList.add('charImage');
+//   player9.classList.add('charImage');
+//   player10.classList.add('charImage');
+//   player11.classList.add('charImage');
+//   player12.classList.add('charImage');
+//   player13.classList.add('charImage');
+//   player14.classList.add('charImage');
+//   player15.classList.add('charImage');
+//   player16.classList.add('charImage');
+//   player17.classList.add('charImage');
+//   player18.classList.add('charImage');
+// }
 
-function runPlayer2() {
-  player1.classList.add('charImage');
-  player2.classList.remove('charImage');
-  player3.classList.add('charImage');
-  player4.classList.add('charImage');
-  player5.classList.add('charImage');
-  player6.classList.add('charImage');
-  player7.classList.add('charImage');
-  player8.classList.add('charImage');
-  player9.classList.add('charImage');
-  player10.classList.add('charImage');
-  player11.classList.add('charImage');
-  player12.classList.add('charImage');
-  player13.classList.add('charImage');
-  player14.classList.add('charImage');
-  player15.classList.add('charImage');
-  player16.classList.add('charImage');
-  player17.classList.add('charImage');
-  player18.classList.add('charImage');
-}
+// function runPlayer2() {
+//   player1.classList.add('charImage');
+//   player2.classList.remove('charImage');
+//   player3.classList.add('charImage');
+//   player4.classList.add('charImage');
+//   player5.classList.add('charImage');
+//   player6.classList.add('charImage');
+//   player7.classList.add('charImage');
+//   player8.classList.add('charImage');
+//   player9.classList.add('charImage');
+//   player10.classList.add('charImage');
+//   player11.classList.add('charImage');
+//   player12.classList.add('charImage');
+//   player13.classList.add('charImage');
+//   player14.classList.add('charImage');
+//   player15.classList.add('charImage');
+//   player16.classList.add('charImage');
+//   player17.classList.add('charImage');
+//   player18.classList.add('charImage');
+// }
 
-function runPlayer3() {
-  player1.classList.add('charImage');
-  player2.classList.add('charImage');
-  player3.classList.remove('charImage');
-  player4.classList.add('charImage');
-  player5.classList.add('charImage');
-  player6.classList.add('charImage');
-  player7.classList.add('charImage');
-  player8.classList.add('charImage');
-  player9.classList.add('charImage');
-  player10.classList.add('charImage');
-  player11.classList.add('charImage');
-  player12.classList.add('charImage');
-  player13.classList.add('charImage');
-  player14.classList.add('charImage');
-  player15.classList.add('charImage');
-  player16.classList.add('charImage');
-  player17.classList.add('charImage');
-  player18.classList.add('charImage');
-}
+// function runPlayer3() {
+//   player1.classList.add('charImage');
+//   player2.classList.add('charImage');
+//   player3.classList.remove('charImage');
+//   player4.classList.add('charImage');
+//   player5.classList.add('charImage');
+//   player6.classList.add('charImage');
+//   player7.classList.add('charImage');
+//   player8.classList.add('charImage');
+//   player9.classList.add('charImage');
+//   player10.classList.add('charImage');
+//   player11.classList.add('charImage');
+//   player12.classList.add('charImage');
+//   player13.classList.add('charImage');
+//   player14.classList.add('charImage');
+//   player15.classList.add('charImage');
+//   player16.classList.add('charImage');
+//   player17.classList.add('charImage');
+//   player18.classList.add('charImage');
+// }
 
-function runPlayer4() {
-  player1.classList.add('charImage');
-  player2.classList.add('charImage');
-  player3.classList.add('charImage');
-  player4.classList.remove('charImage');
-  player5.classList.add('charImage');
-  player6.classList.add('charImage');
-  player7.classList.add('charImage');
-  player8.classList.add('charImage');
-  player9.classList.add('charImage');
-  player10.classList.add('charImage');
-  player11.classList.add('charImage');
-  player12.classList.add('charImage');
-  player13.classList.add('charImage');
-  player14.classList.add('charImage');
-  player15.classList.add('charImage');
-  player16.classList.add('charImage');
-  player17.classList.add('charImage');
-  player18.classList.add('charImage');
-}
+// function runPlayer4() {
+//   player1.classList.add('charImage');
+//   player2.classList.add('charImage');
+//   player3.classList.add('charImage');
+//   player4.classList.remove('charImage');
+//   player5.classList.add('charImage');
+//   player6.classList.add('charImage');
+//   player7.classList.add('charImage');
+//   player8.classList.add('charImage');
+//   player9.classList.add('charImage');
+//   player10.classList.add('charImage');
+//   player11.classList.add('charImage');
+//   player12.classList.add('charImage');
+//   player13.classList.add('charImage');
+//   player14.classList.add('charImage');
+//   player15.classList.add('charImage');
+//   player16.classList.add('charImage');
+//   player17.classList.add('charImage');
+//   player18.classList.add('charImage');
+// }
 
-function runPlayer5() {
-  player1.classList.add('charImage');
-  player2.classList.add('charImage');
-  player3.classList.add('charImage');
-  player4.classList.add('charImage');
-  player5.classList.remove('charImage');
-  player6.classList.add('charImage');
-  player7.classList.add('charImage');
-  player8.classList.add('charImage');
-  player9.classList.add('charImage');
-  player10.classList.add('charImage');
-  player11.classList.add('charImage');
-  player12.classList.add('charImage');
-  player13.classList.add('charImage');
-  player14.classList.add('charImage');
-  player15.classList.add('charImage');
-  player16.classList.add('charImage');
-  player17.classList.add('charImage');
-  player18.classList.add('charImage');
-}
+// function runPlayer5() {
+//   player1.classList.add('charImage');
+//   player2.classList.add('charImage');
+//   player3.classList.add('charImage');
+//   player4.classList.add('charImage');
+//   player5.classList.remove('charImage');
+//   player6.classList.add('charImage');
+//   player7.classList.add('charImage');
+//   player8.classList.add('charImage');
+//   player9.classList.add('charImage');
+//   player10.classList.add('charImage');
+//   player11.classList.add('charImage');
+//   player12.classList.add('charImage');
+//   player13.classList.add('charImage');
+//   player14.classList.add('charImage');
+//   player15.classList.add('charImage');
+//   player16.classList.add('charImage');
+//   player17.classList.add('charImage');
+//   player18.classList.add('charImage');
+// }
 
-function runPlayer6() {
-  player1.classList.add('charImage');
-  player2.classList.add('charImage');
-  player3.classList.add('charImage');
-  player4.classList.add('charImage');
-  player5.classList.add('charImage');
-  player6.classList.remove('charImage');
-  player7.classList.add('charImage');
-  player8.classList.add('charImage');
-  player9.classList.add('charImage');
-  player10.classList.add('charImage');
-  player11.classList.add('charImage');
-  player12.classList.add('charImage');
-  player13.classList.add('charImage');
-  player14.classList.add('charImage');
-  player15.classList.add('charImage');
-  player16.classList.add('charImage');
-  player17.classList.add('charImage');
-  player18.classList.add('charImage');
-}
+// function runPlayer6() {
+//   player1.classList.add('charImage');
+//   player2.classList.add('charImage');
+//   player3.classList.add('charImage');
+//   player4.classList.add('charImage');
+//   player5.classList.add('charImage');
+//   player6.classList.remove('charImage');
+//   player7.classList.add('charImage');
+//   player8.classList.add('charImage');
+//   player9.classList.add('charImage');
+//   player10.classList.add('charImage');
+//   player11.classList.add('charImage');
+//   player12.classList.add('charImage');
+//   player13.classList.add('charImage');
+//   player14.classList.add('charImage');
+//   player15.classList.add('charImage');
+//   player16.classList.add('charImage');
+//   player17.classList.add('charImage');
+//   player18.classList.add('charImage');
+// }
 
-function runPlayer7() {
-  player1.classList.add('charImage');
-  player2.classList.add('charImage');
-  player3.classList.add('charImage');
-  player4.classList.add('charImage');
-  player5.classList.add('charImage');
-  player6.classList.add('charImage');
-  player7.classList.remove('charImage');
-  player8.classList.add('charImage');
-  player9.classList.add('charImage');
-  player10.classList.add('charImage');
-  player11.classList.add('charImage');
-  player12.classList.add('charImage');
-  player13.classList.add('charImage');
-  player14.classList.add('charImage');
-  player15.classList.add('charImage');
-  player16.classList.add('charImage');
-  player17.classList.add('charImage');
-  player18.classList.add('charImage');
-}
+// function runPlayer7() {
+//   player1.classList.add('charImage');
+//   player2.classList.add('charImage');
+//   player3.classList.add('charImage');
+//   player4.classList.add('charImage');
+//   player5.classList.add('charImage');
+//   player6.classList.add('charImage');
+//   player7.classList.remove('charImage');
+//   player8.classList.add('charImage');
+//   player9.classList.add('charImage');
+//   player10.classList.add('charImage');
+//   player11.classList.add('charImage');
+//   player12.classList.add('charImage');
+//   player13.classList.add('charImage');
+//   player14.classList.add('charImage');
+//   player15.classList.add('charImage');
+//   player16.classList.add('charImage');
+//   player17.classList.add('charImage');
+//   player18.classList.add('charImage');
+// }
 
-function runPlayer8() {
-  player1.classList.add('charImage');
-  player2.classList.add('charImage');
-  player3.classList.add('charImage');
-  player4.classList.add('charImage');
-  player5.classList.add('charImage');
-  player6.classList.add('charImage');
-  player7.classList.add('charImage');
-  player8.classList.remove('charImage');
-  player9.classList.add('charImage');
-  player10.classList.add('charImage');
-  player11.classList.add('charImage');
-  player12.classList.add('charImage');
-  player13.classList.add('charImage');
-  player14.classList.add('charImage');
-  player15.classList.add('charImage');
-  player16.classList.add('charImage');
-  player17.classList.add('charImage');
-  player18.classList.add('charImage');
-}
+// function runPlayer8() {
+//   player1.classList.add('charImage');
+//   player2.classList.add('charImage');
+//   player3.classList.add('charImage');
+//   player4.classList.add('charImage');
+//   player5.classList.add('charImage');
+//   player6.classList.add('charImage');
+//   player7.classList.add('charImage');
+//   player8.classList.remove('charImage');
+//   player9.classList.add('charImage');
+//   player10.classList.add('charImage');
+//   player11.classList.add('charImage');
+//   player12.classList.add('charImage');
+//   player13.classList.add('charImage');
+//   player14.classList.add('charImage');
+//   player15.classList.add('charImage');
+//   player16.classList.add('charImage');
+//   player17.classList.add('charImage');
+//   player18.classList.add('charImage');
+// }
 
-function runPlayer9() {
-  player1.classList.add('charImage');
-  player2.classList.add('charImage');
-  player3.classList.add('charImage');
-  player4.classList.add('charImage');
-  player5.classList.add('charImage');
-  player6.classList.add('charImage');
-  player7.classList.add('charImage');
-  player8.classList.add('charImage');
-  player9.classList.remove('charImage');
-  player10.classList.add('charImage');
-  player11.classList.add('charImage');
-  player12.classList.add('charImage');
-  player13.classList.add('charImage');
-  player14.classList.add('charImage');
-  player15.classList.add('charImage');
-  player16.classList.add('charImage');
-  player17.classList.add('charImage');
-  player18.classList.add('charImage');
-}
+// function runPlayer9() {
+//   player1.classList.add('charImage');
+//   player2.classList.add('charImage');
+//   player3.classList.add('charImage');
+//   player4.classList.add('charImage');
+//   player5.classList.add('charImage');
+//   player6.classList.add('charImage');
+//   player7.classList.add('charImage');
+//   player8.classList.add('charImage');
+//   player9.classList.remove('charImage');
+//   player10.classList.add('charImage');
+//   player11.classList.add('charImage');
+//   player12.classList.add('charImage');
+//   player13.classList.add('charImage');
+//   player14.classList.add('charImage');
+//   player15.classList.add('charImage');
+//   player16.classList.add('charImage');
+//   player17.classList.add('charImage');
+//   player18.classList.add('charImage');
+// }
 
-function runPlayer10() {
-  player1.classList.add('charImage');
-  player2.classList.add('charImage');
-  player3.classList.add('charImage');
-  player4.classList.add('charImage');
-  player5.classList.add('charImage');
-  player6.classList.add('charImage');
-  player7.classList.add('charImage');
-  player8.classList.add('charImage');
-  player9.classList.add('charImage');
-  player10.classList.remove('charImage');
-  player11.classList.add('charImage');
-  player12.classList.add('charImage');
-  player13.classList.add('charImage');
-  player14.classList.add('charImage');
-  player15.classList.add('charImage');
-  player16.classList.add('charImage');
-  player17.classList.add('charImage');
-  player18.classList.add('charImage');
-}
+// function runPlayer10() {
+//   player1.classList.add('charImage');
+//   player2.classList.add('charImage');
+//   player3.classList.add('charImage');
+//   player4.classList.add('charImage');
+//   player5.classList.add('charImage');
+//   player6.classList.add('charImage');
+//   player7.classList.add('charImage');
+//   player8.classList.add('charImage');
+//   player9.classList.add('charImage');
+//   player10.classList.remove('charImage');
+//   player11.classList.add('charImage');
+//   player12.classList.add('charImage');
+//   player13.classList.add('charImage');
+//   player14.classList.add('charImage');
+//   player15.classList.add('charImage');
+//   player16.classList.add('charImage');
+//   player17.classList.add('charImage');
+//   player18.classList.add('charImage');
+// }
 
-function runPlayer11() {
-  player1.classList.add('charImage');
-  player2.classList.add('charImage');
-  player3.classList.add('charImage');
-  player4.classList.add('charImage');
-  player5.classList.add('charImage');
-  player6.classList.add('charImage');
-  player7.classList.add('charImage');
-  player8.classList.add('charImage');
-  player9.classList.add('charImage');
-  player10.classList.add('charImage');
-  player11.classList.remove('charImage');
-  player12.classList.add('charImage');
-  player13.classList.add('charImage');
-  player14.classList.add('charImage');
-  player15.classList.add('charImage');
-  player16.classList.add('charImage');
-  player17.classList.add('charImage');
-  player18.classList.add('charImage');
-}
+// function runPlayer11() {
+//   player1.classList.add('charImage');
+//   player2.classList.add('charImage');
+//   player3.classList.add('charImage');
+//   player4.classList.add('charImage');
+//   player5.classList.add('charImage');
+//   player6.classList.add('charImage');
+//   player7.classList.add('charImage');
+//   player8.classList.add('charImage');
+//   player9.classList.add('charImage');
+//   player10.classList.add('charImage');
+//   player11.classList.remove('charImage');
+//   player12.classList.add('charImage');
+//   player13.classList.add('charImage');
+//   player14.classList.add('charImage');
+//   player15.classList.add('charImage');
+//   player16.classList.add('charImage');
+//   player17.classList.add('charImage');
+//   player18.classList.add('charImage');
+// }
 
-function runPlayer12() {
-  player1.classList.add('charImage');
-  player2.classList.add('charImage');
-  player3.classList.add('charImage');
-  player4.classList.add('charImage');
-  player5.classList.add('charImage');
-  player6.classList.add('charImage');
-  player7.classList.add('charImage');
-  player8.classList.add('charImage');
-  player9.classList.add('charImage');
-  player10.classList.add('charImage');
-  player11.classList.add('charImage');
-  player12.classList.remove('charImage');
-  player13.classList.add('charImage');
-  player14.classList.add('charImage');
-  player15.classList.add('charImage');
-  player16.classList.add('charImage');
-  player17.classList.add('charImage');
-  player18.classList.add('charImage');
-}
+// function runPlayer12() {
+//   player1.classList.add('charImage');
+//   player2.classList.add('charImage');
+//   player3.classList.add('charImage');
+//   player4.classList.add('charImage');
+//   player5.classList.add('charImage');
+//   player6.classList.add('charImage');
+//   player7.classList.add('charImage');
+//   player8.classList.add('charImage');
+//   player9.classList.add('charImage');
+//   player10.classList.add('charImage');
+//   player11.classList.add('charImage');
+//   player12.classList.remove('charImage');
+//   player13.classList.add('charImage');
+//   player14.classList.add('charImage');
+//   player15.classList.add('charImage');
+//   player16.classList.add('charImage');
+//   player17.classList.add('charImage');
+//   player18.classList.add('charImage');
+// }
 
-function runPlayer13() {
-  player1.classList.add('charImage');
-  player2.classList.add('charImage');
-  player3.classList.add('charImage');
-  player4.classList.add('charImage');
-  player5.classList.add('charImage');
-  player6.classList.add('charImage');
-  player7.classList.add('charImage');
-  player8.classList.add('charImage');
-  player9.classList.add('charImage');
-  player10.classList.add('charImage');
-  player11.classList.add('charImage');
-  player12.classList.add('charImage');
-  player13.classList.remove('charImage');
-  player14.classList.add('charImage');
-  player15.classList.add('charImage');
-  player16.classList.add('charImage');
-  player17.classList.add('charImage');
-  player18.classList.add('charImage');
-}
+// function runPlayer13() {
+//   player1.classList.add('charImage');
+//   player2.classList.add('charImage');
+//   player3.classList.add('charImage');
+//   player4.classList.add('charImage');
+//   player5.classList.add('charImage');
+//   player6.classList.add('charImage');
+//   player7.classList.add('charImage');
+//   player8.classList.add('charImage');
+//   player9.classList.add('charImage');
+//   player10.classList.add('charImage');
+//   player11.classList.add('charImage');
+//   player12.classList.add('charImage');
+//   player13.classList.remove('charImage');
+//   player14.classList.add('charImage');
+//   player15.classList.add('charImage');
+//   player16.classList.add('charImage');
+//   player17.classList.add('charImage');
+//   player18.classList.add('charImage');
+// }
 
-function runPlayer14() {
-  player1.classList.add('charImage');
-  player2.classList.add('charImage');
-  player3.classList.add('charImage');
-  player4.classList.add('charImage');
-  player5.classList.add('charImage');
-  player6.classList.add('charImage');
-  player7.classList.add('charImage');
-  player8.classList.add('charImage');
-  player9.classList.add('charImage');
-  player10.classList.add('charImage');
-  player11.classList.add('charImage');
-  player12.classList.add('charImage');
-  player13.classList.add('charImage');
-  player14.classList.remove('charImage');
-  player15.classList.add('charImage');
-  player16.classList.add('charImage');
-  player17.classList.add('charImage');
-  player18.classList.add('charImage');
-}
+// function runPlayer14() {
+//   player1.classList.add('charImage');
+//   player2.classList.add('charImage');
+//   player3.classList.add('charImage');
+//   player4.classList.add('charImage');
+//   player5.classList.add('charImage');
+//   player6.classList.add('charImage');
+//   player7.classList.add('charImage');
+//   player8.classList.add('charImage');
+//   player9.classList.add('charImage');
+//   player10.classList.add('charImage');
+//   player11.classList.add('charImage');
+//   player12.classList.add('charImage');
+//   player13.classList.add('charImage');
+//   player14.classList.remove('charImage');
+//   player15.classList.add('charImage');
+//   player16.classList.add('charImage');
+//   player17.classList.add('charImage');
+//   player18.classList.add('charImage');
+// }
 
-function runPlayer15() {
-  player1.classList.add('charImage');
-  player2.classList.add('charImage');
-  player3.classList.add('charImage');
-  player4.classList.add('charImage');
-  player5.classList.add('charImage');
-  player6.classList.add('charImage');
-  player7.classList.add('charImage');
-  player8.classList.add('charImage');
-  player9.classList.add('charImage');
-  player10.classList.add('charImage');
-  player11.classList.add('charImage');
-  player12.classList.add('charImage');
-  player13.classList.add('charImage');
-  player14.classList.add('charImage');
-  player15.classList.remove('charImage');
-  player16.classList.add('charImage');
-  player17.classList.add('charImage');
-  player18.classList.add('charImage');
-}
+// function runPlayer15() {
+//   player1.classList.add('charImage');
+//   player2.classList.add('charImage');
+//   player3.classList.add('charImage');
+//   player4.classList.add('charImage');
+//   player5.classList.add('charImage');
+//   player6.classList.add('charImage');
+//   player7.classList.add('charImage');
+//   player8.classList.add('charImage');
+//   player9.classList.add('charImage');
+//   player10.classList.add('charImage');
+//   player11.classList.add('charImage');
+//   player12.classList.add('charImage');
+//   player13.classList.add('charImage');
+//   player14.classList.add('charImage');
+//   player15.classList.remove('charImage');
+//   player16.classList.add('charImage');
+//   player17.classList.add('charImage');
+//   player18.classList.add('charImage');
+// }
 
-function runPlayer16() {
-  player1.classList.add('charImage');
-  player2.classList.add('charImage');
-  player3.classList.add('charImage');
-  player4.classList.add('charImage');
-  player5.classList.add('charImage');
-  player6.classList.add('charImage');
-  player7.classList.add('charImage');
-  player8.classList.add('charImage');
-  player9.classList.add('charImage');
-  player10.classList.add('charImage');
-  player11.classList.add('charImage');
-  player12.classList.add('charImage');
-  player13.classList.add('charImage');
-  player14.classList.add('charImage');
-  player15.classList.add('charImage');
-  player16.classList.remove('charImage');
-  player17.classList.add('charImage');
-  player18.classList.add('charImage');
-}
+// function runPlayer16() {
+//   player1.classList.add('charImage');
+//   player2.classList.add('charImage');
+//   player3.classList.add('charImage');
+//   player4.classList.add('charImage');
+//   player5.classList.add('charImage');
+//   player6.classList.add('charImage');
+//   player7.classList.add('charImage');
+//   player8.classList.add('charImage');
+//   player9.classList.add('charImage');
+//   player10.classList.add('charImage');
+//   player11.classList.add('charImage');
+//   player12.classList.add('charImage');
+//   player13.classList.add('charImage');
+//   player14.classList.add('charImage');
+//   player15.classList.add('charImage');
+//   player16.classList.remove('charImage');
+//   player17.classList.add('charImage');
+//   player18.classList.add('charImage');
+// }
 
-function runPlayer17() {
-  player1.classList.add('charImage');
-  player2.classList.add('charImage');
-  player3.classList.add('charImage');
-  player4.classList.add('charImage');
-  player5.classList.add('charImage');
-  player6.classList.add('charImage');
-  player7.classList.add('charImage');
-  player8.classList.add('charImage');
-  player9.classList.add('charImage');
-  player10.classList.add('charImage');
-  player11.classList.add('charImage');
-  player12.classList.add('charImage');
-  player13.classList.add('charImage');
-  player14.classList.add('charImage');
-  player15.classList.add('charImage');
-  player16.classList.add('charImage');
-  player17.classList.remove('charImage');
-  player18.classList.add('charImage');
-}
+// function runPlayer17() {
+//   player1.classList.add('charImage');
+//   player2.classList.add('charImage');
+//   player3.classList.add('charImage');
+//   player4.classList.add('charImage');
+//   player5.classList.add('charImage');
+//   player6.classList.add('charImage');
+//   player7.classList.add('charImage');
+//   player8.classList.add('charImage');
+//   player9.classList.add('charImage');
+//   player10.classList.add('charImage');
+//   player11.classList.add('charImage');
+//   player12.classList.add('charImage');
+//   player13.classList.add('charImage');
+//   player14.classList.add('charImage');
+//   player15.classList.add('charImage');
+//   player16.classList.add('charImage');
+//   player17.classList.remove('charImage');
+//   player18.classList.add('charImage');
+// }
 
-function runPlayer18() {
-  player1.classList.add('charImage');
-  player2.classList.add('charImage');
-  player3.classList.add('charImage');
-  player4.classList.add('charImage');
-  player5.classList.add('charImage');
-  player6.classList.add('charImage');
-  player7.classList.add('charImage');
-  player8.classList.add('charImage');
-  player9.classList.add('charImage');
-  player10.classList.add('charImage');
-  player11.classList.add('charImage');
-  player12.classList.add('charImage');
-  player13.classList.add('charImage');
-  player14.classList.add('charImage');
-  player15.classList.add('charImage');
-  player16.classList.add('charImage');
-  player17.classList.add('charImage');
-  player18.classList.remove('charImage');
-}
+// function runPlayer18() {
+//   player1.classList.add('charImage');
+//   player2.classList.add('charImage');
+//   player3.classList.add('charImage');
+//   player4.classList.add('charImage');
+//   player5.classList.add('charImage');
+//   player6.classList.add('charImage');
+//   player7.classList.add('charImage');
+//   player8.classList.add('charImage');
+//   player9.classList.add('charImage');
+//   player10.classList.add('charImage');
+//   player11.classList.add('charImage');
+//   player12.classList.add('charImage');
+//   player13.classList.add('charImage');
+//   player14.classList.add('charImage');
+//   player15.classList.add('charImage');
+//   player16.classList.add('charImage');
+//   player17.classList.add('charImage');
+//   player18.classList.remove('charImage');
+// }
 
 // toggle end
 
