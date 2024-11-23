@@ -22,8 +22,8 @@ Tasks:
 - Mortal kombat 9 Characters:
 	https://www.mksecrets.net/index.php?section=mk9&lang=eng&contentID=4843
 
-
-
+How to Trigger Two Functions With One Button in Javascript
+https://www.youtube.com/watch?v=iWZ8d-S_4YE&ab_channel=ChartJS
 
 <!-- if creating unique characters -->
 - Ask Moe how to place faces generated images
