@@ -19,6 +19,9 @@ Tasks:
 - we will adjust #defaultBackgroundVideo
 - fix for iphone/phone responsiveness
 
+- now trying to figure out how to stop all other videos to play
+- I also need to learn how to hide all other videos while one is playing
+
 - Mortal kombat 9 Characters:
 	https://www.mksecrets.net/index.php?section=mk9&lang=eng&contentID=4843
 

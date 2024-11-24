@@ -11,13 +11,40 @@
 // document.querySelector(".charImage").style.display = 'none'
 
 
-function toggle() {
+document.querySelector('#player1').addEventListener('click', runPlayer1)
+
+function runPlayer1() {
+  
   let videos = document.querySelector('.videos');
-  let video = document.querySelector('video');
-  videos.classList.toggle("active");
+  let video = document.querySelector('videoChar');
+  videos.classList.toggle('active');
   video.pause();
   video.currentTime = 0;
 }
+
+let div = document.getElementById('playVidPlayer1');
+let display = 0;
+
+
+function runPlayer1() {
+  if (display == 1) {
+    div.style.display = 'block';
+    display = 0;
+  }
+  else{
+    div.style.display = 'none';
+    display = 1
+  }
+
+}
+
+// function toggle() {
+//   let videos = document.querySelector('.videos');
+//   let video = document.querySelector('video');
+//   videos.classList.toggle("active");
+//   video.pause();
+//   video.currentTime = 0;
+// }
 
 document.getElementById('player1').onclick = function () {
 document.getElementById('playVidPlayer1').play();
@@ -134,13 +161,9 @@ document.querySelector('#player16').addEventListener('click', runPlayer16)
 document.querySelector('#player17').addEventListener('click', runPlayer17)
 document.querySelector('#player18').addEventListener('click', runPlayer18)
 
-function toggle() {
-  let videos = document.querySelector('.videos');
-  let video = document.querySelector('video');
-  videos.classList.toggle("active");
-  video.pause();
-  video.currentTime = 0;
-}
+
+
+
 
 function runPlayer1() {
   player1.classList.remove('charImage');
