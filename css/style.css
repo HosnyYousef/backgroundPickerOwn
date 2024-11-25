@@ -71,6 +71,10 @@ body {
   opacity: 1;
 }
 
+.hide {
+  display: none;
+}
+
 .videoChar{
   display: inline-flex;
   flex-wrap: wrap;
