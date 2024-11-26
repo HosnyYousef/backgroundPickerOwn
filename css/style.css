@@ -55,6 +55,7 @@ body {
 
 .videos{
   display: inline-flex;
+  /* display: block; */
   flex-wrap: wrap;
   justify-content: center;
   position: absolute;
