@@ -32,138 +32,53 @@ function hideAndStopAll(){
 
     for(i=0;i<ids.length;i++){
         var video = document.getElementById(ids[i]);
-        video.pause();
+        // video.pause();
         video.style.display='none'
         console.log('oneWorks')
         video.currentTime =0; // if you want to go back to beginning
         
     }
 
-    // var videos = document.querySelectorAll(".videoChar");
-    // videos.forEach(function(video){
-    //     video.pause();
-    //     video.currentTime =0; // if you want to go back to beginning
-    // })
-
-//   var videos = document.querySelectorAll(".videoChar");
-// videos.forEach(function(video){
-//    if(video.pause) {
-//        video.pause();
-//        video.currentTime =0; // if you want to go back to beginning
-//    } else {
-//        video.innerHTML = "";
-//    }
-// });
-
-
 
 }
 
 
-
-function pauseOtherVids () {
-  const pauseVid1 = () => {
-    document.getElementById('playVidPlayer2').pause();
-    document.getElementById('playVidPlayer3').pause();
-    document.getElementById('playVidPlayer4').pause();
-    document.getElementById('playVidPlayer5').pause();
-    document.getElementById('playVidPlayer6').pause();
-    document.getElementById('playVidPlayer7').pause();
-    document.getElementById('playVidPlayer8').pause();
-    document.getElementById('playVidPlayer9').pause();
-    document.getElementById('playVidPlayer10').pause();
-    document.getElementById('playVidPlayer11').pause();
-    document.getElementById('playVidPlayer12').pause();
-    document.getElementById('playVidPlayer13').pause();
-    document.getElementById('playVidPlayer14').pause();
-    document.getElementById('playVidPlayer15').pause();
-    document.getElementById('playVidPlayer16').pause();
-    document.getElementById('playVidPlayer17').pause();
-    document.getElementById('playVidPlayer18').pause();
-  };
-
-  return document.getElementById('playVidPlayer1') ? pauseVid1 : console.log('does not work')
+function playVideo1() {
+  document.getElementById('playVidPlayer2').pause();
+  document.getElementById('playVidPlayer3').pause();
+  document.getElementById('playVidPlayer4').pause();
+  document.getElementById('playVidPlayer5').pause();
+  document.getElementById('playVidPlayer6').pause();
+  document.getElementById('playVidPlayer7').pause();
+  document.getElementById('playVidPlayer8').pause();
+  document.getElementById('playVidPlayer9').pause();
+  document.getElementById('playVidPlayer10').pause();
+  document.getElementById('playVidPlayer11').pause();
+  document.getElementById('playVidPlayer12').pause();
+  document.getElementById('playVidPlayer13').pause();
+  document.getElementById('playVidPlayer14').pause();
+  document.getElementById('playVidPlayer15').pause();
+  document.getElementById('playVidPlayer16').pause();
+  document.getElementById('playVidPlayer17').pause();
+  document.getElementById('playVidPlayer18').pause();
 }
 
-// function playVideo1() {
-//   document.getElementById('playVidPlayer2').pause();
-//   document.getElementById('playVidPlayer3').pause();
-//   document.getElementById('playVidPlayer4').pause();
-//   document.getElementById('playVidPlayer5').pause();
-//   document.getElementById('playVidPlayer6').pause();
-//   document.getElementById('playVidPlayer7').pause();
-//   document.getElementById('playVidPlayer8').pause();
-//   document.getElementById('playVidPlayer9').pause();
-//   document.getElementById('playVidPlayer10').pause();
-//   document.getElementById('playVidPlayer11').pause();
-//   document.getElementById('playVidPlayer12').pause();
-//   document.getElementById('playVidPlayer13').pause();
-//   document.getElementById('playVidPlayer14').pause();
-//   document.getElementById('playVidPlayer15').pause();
-//   document.getElementById('playVidPlayer16').pause();
-//   document.getElementById('playVidPlayer17').pause();
-//   document.getElementById('playVidPlayer18').pause();
-// }
-
-// function playVideo2() {
-//   document.getElementById('playVidPlayer1').pause();
-//   document.getElementById('playVidPlayer3').pause();
-//   document.getElementById('playVidPlayer4').pause();
-//   document.getElementById('playVidPlayer5').pause();
-//   document.getElementById('playVidPlayer6').pause();
-//   document.getElementById('playVidPlayer7').pause();
-//   document.getElementById('playVidPlayer8').pause();
-//   document.getElementById('playVidPlayer9').pause();
-//   document.getElementById('playVidPlayer10').pause();
-//   document.getElementById('playVidPlayer11').pause();
-//   document.getElementById('playVidPlayer12').pause();
-//   document.getElementById('playVidPlayer13').pause();
-//   document.getElementById('playVidPlayer14').pause();
-//   document.getElementById('playVidPlayer15').pause();
-//   document.getElementById('playVidPlayer16').pause();
-//   document.getElementById('playVidPlayer17').pause();
-//   document.getElementById('playVidPlayer18').pause();
-// }
-
-// function playVideo3() {
-//   document.getElementById('playVidPlayer1').pause();
-//   document.getElementById('playVidPlayer2').pause();
-//   document.getElementById('playVidPlayer4').pause();
-//   document.getElementById('playVidPlayer5').pause();
-//   document.getElementById('playVidPlayer6').pause();
-//   document.getElementById('playVidPlayer7').pause();
-//   document.getElementById('playVidPlayer8').pause();
-//   document.getElementById('playVidPlayer9').pause();
-//   document.getElementById('playVidPlayer10').pause();
-//   document.getElementById('playVidPlayer11').pause();
-//   document.getElementById('playVidPlayer12').pause();
-//   document.getElementById('playVidPlayer13').pause();
-//   document.getElementById('playVidPlayer14').pause();
-//   document.getElementById('playVidPlayer15').pause();
-//   document.getElementById('playVidPlayer16').pause();
-//   document.getElementById('playVidPlayer17').pause();
-//   document.getElementById('playVidPlayer18').pause();
-// }
-
-// // Repeat the same logic for playVideo4() to playVideo18()
-
-// function playVideo18() {
-//   document.getElementById('playVidPlayer1').pause();
-//   document.getElementById('playVidPlayer2').pause();
-//   document.getElementById('playVidPlayer3').pause();
-//   document.getElementById('playVidPlayer4').pause();
-//   document.getElementById('playVidPlayer5').pause();
-//   document.getElementById('playVidPlayer6').pause();
-//   document.getElementById('playVidPlayer7').pause();
-//   document.getElementById('playVidPlayer8').pause();
-//   document.getElementById('playVidPlayer9').pause();
-//   document.getElementById('playVidPlayer10').pause();
-//   document.getElementById('playVidPlayer11').pause();
-//   document.getElementById('playVidPlayer12').pause();
-//   document.getElementById('playVidPlayer13').pause();
-//   document.getElementById('playVidPlayer14').pause();
-//   document.getElementById('playVidPlayer15').pause();
-//   document.getElementById('playVidPlayer16').pause();
-//   document.getElementById('playVidPlayer17').pause();
-// }
-
+function playVideo2() {
+  document.getElementById('playVidPlayer1').pause();
+  document.getElementById('playVidPlayer3').pause();
+  document.getElementById('playVidPlayer4').pause();
+  document.getElementById('playVidPlayer5').pause();
+  document.getElementById('playVidPlayer6').pause();
+  document.getElementById('playVidPlayer7').pause();
+  document.getElementById('playVidPlayer8').pause();
+  document.getElementById('playVidPlayer9').pause();
+  document.getElementById('playVidPlayer10').pause();
+  document.getElementById('playVidPlayer11').pause();
+  document.getElementById('playVidPlayer12').pause();
+  document.getElementById('playVidPlayer13').pause();
+  document.getElementById('playVidPlayer14').pause();
+  document.getElementById('playVidPlayer15').pause();
+  document.getElementById('playVidPlayer16').pause();
+  document.getElementById('playVidPlayer17').pause();
+  document.getElementById('playVidPlayer18').pause();
+}

@@ -12,8 +12,8 @@ Tasks:
 ~~- store videos one by one on files (to be able to push)~~
 ~~- create eventlisteners for clicks to correspond to each video~~
 
-- when I click away, I want character video to stop reset
-- characters are all playing at the same time when one is pressed (even though they are hidden and not visable at the same time)
+~~- when I click away, I want character video to stop reset~~
+- Characters are all playing at the same time when one is pressed (even though they are hidden and not visable at the same time)
 
 
 ~~- make sure that character box is always with video when shrinking the page~~
