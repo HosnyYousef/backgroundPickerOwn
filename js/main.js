@@ -32,19 +32,48 @@ function hideAndStopAll(){
 
     for(i=0;i<ids.length;i++){
         var video = document.getElementById(ids[i]);
-        // video.pause();
+        video.pause();
         video.style.display='none'
         console.log('oneWorks')
         video.currentTime =0; // if you want to go back to beginning
         
     }
-
-
 }
 
+// window.addEventListener('load', function(event) {
+//   document.getElementsByClassName("videoChar").forEach((video) => {
+//     video.onplay = function(event) {
+//       event.preventDefault();
+//       document.getElementsByClassName("videoChar").forEach((playing) => {
+//         if (video === playing)
+//           playing.play();
+//         else
+//           playing.pause();
+//       });
+//     }
+//   });
+// });
 
+// var video = document.getElementById("myVideoPlayer");
+// function stopVideo(){
+//      video.pause();
+//      video.currentTime = 0;
+// }
+
+// $("#stop").on('click', function(){
+//   stopVideo();
+// });
+
+
+
+// tying to figure out how to play one at a time
 function playVideo1() {
-  document.getElementById('playVidPlayer2').pause();
+
+// document.getElementsByClassName('videoChar').currentTime = 0
+
+document.getElementById('playVidPlayer1').play();
+
+document.getElementById('playVidPlayer2').pause();
   document.getElementById('playVidPlayer3').pause();
   document.getElementById('playVidPlayer4').pause();
   document.getElementById('playVidPlayer5').pause();
@@ -65,6 +94,8 @@ function playVideo1() {
 
 function playVideo2() {
   document.getElementById('playVidPlayer1').pause();
+
+document.getElementById('playVidPlayer2').play();
   document.getElementById('playVidPlayer3').pause();
   document.getElementById('playVidPlayer4').pause();
   document.getElementById('playVidPlayer5').pause();
