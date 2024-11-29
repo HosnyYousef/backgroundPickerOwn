@@ -67,14 +67,14 @@ function hideAndStopAll(){
 
 function pauseAllVideos() {
             
-  document.querySelectorAll(".videoChar").forEach((playVidPlayer) => {
-    playVidPlayer.onplay = function(e){
+  document.querySelectorAll(".videoChar").forEach((el) => {
+      el.onplay = function(e){
           // pause all the videos except the current.
-          document.querySelectorAll(".videoChar").forEach((playVidPlayer1) => {
-              if(playVidPlayer === playVidPlayer1)
-                playVidPlayer1.play();
+          document.querySelectorAll(".videoChar").forEach((el1) => {
+              if(el === el1)
+                  el1.play();
               else
-              playVidPlayer1.pause();
+                  el1.pause();
           });
       }
   });
