@@ -6,7 +6,7 @@ function display(playVidPlayer){
   vid.style.display = 'block';
   // vid.play();
   document.getElementById('playVidPlayer1').play();
-  document.getElementById('playVidPlayer2').play();
+  document.getElementById('playVidPlaer2').play();
   document.getElementById('playVidPlayer3').play();
   document.getElementById('playVidPlayer4').play();
   document.getElementById('playVidPlayer5').play();
@@ -65,51 +65,67 @@ function hideAndStopAll(){
 // });
 
 
-
-// tying to figure out how to play one at a time
-function playVideo1() {
-
-// document.getElementsByClassName('videoChar').currentTime = 0
-
-document.getElementById('playVidPlayer1').play();
-
-document.getElementById('playVidPlayer2').pause();
-  document.getElementById('playVidPlayer3').pause();
-  document.getElementById('playVidPlayer4').pause();
-  document.getElementById('playVidPlayer5').pause();
-  document.getElementById('playVidPlayer6').pause();
-  document.getElementById('playVidPlayer7').pause();
-  document.getElementById('playVidPlayer8').pause();
-  document.getElementById('playVidPlayer9').pause();
-  document.getElementById('playVidPlayer10').pause();
-  document.getElementById('playVidPlayer11').pause();
-  document.getElementById('playVidPlayer12').pause();
-  document.getElementById('playVidPlayer13').pause();
-  document.getElementById('playVidPlayer14').pause();
-  document.getElementById('playVidPlayer15').pause();
-  document.getElementById('playVidPlayer16').pause();
-  document.getElementById('playVidPlayer17').pause();
-  document.getElementById('playVidPlayer18').pause();
+function pauseAllVideos() {
+            
+  document.querySelectorAll(".videoChar").forEach((playVidPlayer) => {
+    playVidPlayer.onplay = function(e){
+          // pause all the videos except the current.
+          document.querySelectorAll(".videoChar").forEach((playVidPlayer1) => {
+              if(playVidPlayer === playVidPlayer1)
+                playVidPlayer1.play();
+              else
+              playVidPlayer1.pause();
+          });
+      }
+  });
 }
 
-function playVideo2() {
-  document.getElementById('playVidPlayer1').pause();
 
-document.getElementById('playVidPlayer2').play();
-  document.getElementById('playVidPlayer3').pause();
-  document.getElementById('playVidPlayer4').pause();
-  document.getElementById('playVidPlayer5').pause();
-  document.getElementById('playVidPlayer6').pause();
-  document.getElementById('playVidPlayer7').pause();
-  document.getElementById('playVidPlayer8').pause();
-  document.getElementById('playVidPlayer9').pause();
-  document.getElementById('playVidPlayer10').pause();
-  document.getElementById('playVidPlayer11').pause();
-  document.getElementById('playVidPlayer12').pause();
-  document.getElementById('playVidPlayer13').pause();
-  document.getElementById('playVidPlayer14').pause();
-  document.getElementById('playVidPlayer15').pause();
-  document.getElementById('playVidPlayer16').pause();
-  document.getElementById('playVidPlayer17').pause();
-  document.getElementById('playVidPlayer18').pause();
-}
+
+// // tying to figure out how to play one at a time
+// function playVideo1() {
+
+// // document.getElementsByClassName('videoChar').currentTime = 0
+
+// document.getElementById('playVidPlayer1').play();
+
+// document.getElementById('playVidPlayer2').pause();
+//   document.getElementById('playVidPlayer3').pause();
+//   document.getElementById('playVidPlayer4').pause();
+//   document.getElementById('playVidPlayer5').pause();
+//   document.getElementById('playVidPlayer6').pause();
+//   document.getElementById('playVidPlayer7').pause();
+//   document.getElementById('playVidPlayer8').pause();
+//   document.getElementById('playVidPlayer9').pause();
+//   document.getElementById('playVidPlayer10').pause();
+//   document.getElementById('playVidPlayer11').pause();
+//   document.getElementById('playVidPlayer12').pause();
+//   document.getElementById('playVidPlayer13').pause();
+//   document.getElementById('playVidPlayer14').pause();
+//   document.getElementById('playVidPlayer15').pause();
+//   document.getElementById('playVidPlayer16').pause();
+//   document.getElementById('playVidPlayer17').pause();
+//   document.getElementById('playVidPlayer18').pause();
+// }
+
+// function playVideo2() {
+//   document.getElementById('playVidPlayer1').pause();
+
+// document.getElementById('playVidPlayer2').play();speechSynthesis
+//   document.getElementById('playVidPlayer3').pause();
+//   document.getElementById('playVidPlayer4').pause();
+//   document.getElementById('playVidPlayer5').pause();
+//   document.getElementById('playVidPlayer6').pause();
+//   document.getElementById('playVidPlayer7').pause();
+//   document.getElementById('playVidPlayer8').pause();
+//   document.getElementById('playVidPlayer9').pause();
+//   document.getElementById('playVidPlayer10').pause();
+//   document.getElementById('playVidPlayer11').pause();
+//   document.getElementById('playVidPlayer12').pause();
+//   document.getElementById('playVidPlayer13').pause();
+//   document.getElementById('playVidPlayer14').pause();
+//   document.getElementById('playVidPlayer15').pause();
+//   document.getElementById('playVidPlayer16').pause();
+//   document.getElementById('playVidPlayer17').pause();
+//   document.getElementById('playVidPlayer18').pause();
+// }

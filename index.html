@@ -19,6 +19,16 @@
 
 <!-- 18 character videos -->
 
+<!-- <div class="row align-items-center">
+	<div class="col align-self-center">
+		<div class="row" is="dmx-repeat" id="repeatVideos" dmx-bind:repeat="srvc_getVideos.data.qr_getVideos">
+			<div class="col-6 text-center">
+				<video class="videoChar" is="dmx-video" id="video" dmx-bind:id="'video' + $index" dmx-bind:src="video/characters/baraka.mov" controls="true" dmx-bind:width="400" dmx-on:play="run({runJS:{function:'pauseAllVideos',outputType:'text'}})"></video>
+			</div>
+		</div>
+	</div>
+</div> -->
+
 <section class="videos">
 	<video id="playVidPlayer1" 
 	onplay="playVideo1();"	class="videoChar" src="video/characters/baraka.mov" type="video/webm" >
