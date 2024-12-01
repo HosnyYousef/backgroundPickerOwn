@@ -4,6 +4,7 @@
     	<meta charset="utf-8">
     	<meta name="description" content="This app helps youtubers pick the best background color for their videos">
     	<meta name="keywords" content="youtube, background, lights">
+		<link rel="shortcut icon" href="#">
 
 		<title>Youtube Background Picker</title>
 
@@ -12,7 +13,7 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<!-- <h1>Youtube Background Picker</h1> -->
+		<h1>Mortal Kombat Character Picker</h1>
 		<!-- <img src="img/chair.png" alt="generic youtube gaming chair"> -->
 
 <!-- backgound -->
@@ -30,15 +31,12 @@
 </div> -->
 
 <section class="videos">
-	<video id="playVidPlayer1" 
-	onplay="playVideo1();"	class="videoChar" src="video/characters/baraka.mov" type="video/webm" >
+
+	<video id="playVidPlayer1" class="videoChar" >
+		<source onclick="toggle();" src="video/characters/baraka.mov" type="video/webm" />
 	</video>
 
-	<!-- <video id="playVidPlayer1" class="videoChar" >
-		<source onclick="toggle();" src="video/characters/baraka.mov" type="video/webm" />
-	</video> -->
-
-	<video id="playVidPlayer2" onplay="playVideo2();" class="videoChar" >
+	<video id="playVidPlayer2" class="videoChar" >
 		<source src="video/characters/subzero.mov" type="video/webm" />
 	</video>
 

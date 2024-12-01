@@ -1,12 +1,21 @@
 
+// psuedo-code
+
+// When we click on a character, it plays the single video
+  // but also resets from the beginning of the video
+// when another character is clicked, it stops the current video played and switches to that video
+  // also reseting that current playing/clicked video from the beginning of the video
+  // videos don't loop
+
 
 function display(playVidPlayer){
   hideAndStopAll()
+  // oneVidPlay()
   var vid = document.getElementById(playVidPlayer);
-  vid.style.display = 'block';
+  vid.style.display = 'block'; //makes video appear: becomes a block level element, taking up it's own line and appearing as intended
   // vid.play();
   document.getElementById('playVidPlayer1').play();
-  document.getElementById('playVidPlaer2').play();
+  document.getElementById('playVidPlayer2').play();
   document.getElementById('playVidPlayer3').play();
   document.getElementById('playVidPlayer4').play();
   document.getElementById('playVidPlayer5').play();
@@ -23,22 +32,40 @@ function display(playVidPlayer){
   document.getElementById('playVidPlayer16').play();
   document.getElementById('playVidPlayer17').play();
   document.getElementById('playVidPlayer18').play();
+
 } 
+
+
+function hideAndStopAll(){
 var ids= ['playVidPlayer1','playVidPlayer2', 'playVidPlayer3', 'playVidPlayer4', 'playVidPlayer5', 'playVidPlayer6',
   'playVidPlayer7', 'playVidPlayer8', 'playVidPlayer9', 'playVidPlayer10', 'playVidPlayer11', 'playVidPlayer12',
   'playVidPlayer13', 'playVidPlayer14', 'playVidPlayer15', 'playVidPlayer16', 'playVidPlayer17', 'playVidPlayer18']
-
-function hideAndStopAll(){
-
     for(i=0;i<ids.length;i++){
         var video = document.getElementById(ids[i]);
         video.pause();
         video.style.display='none'
         console.log('oneWorks')
         video.currentTime =0; // if you want to go back to beginning
-        
+
     }
 }
+
+
+
+// function oneVidPlay(){
+//   ('click', function(){
+//     for(var i = 0;i < playVidPlayer.players.length; i++){
+//       playVidPlayer.players[i].pause();
+//     }
+//     });
+// }
+
+// function pauseAllVideos() {
+            
+
+// }
+
+
 
 // window.addEventListener('load', function(event) {
 //   document.getElementsByClassName("videoChar").forEach((video) => {
@@ -65,20 +92,7 @@ function hideAndStopAll(){
 // });
 
 
-function pauseAllVideos() {
-            
-  document.querySelectorAll(".videoChar").forEach((el) => {
-      el.onplay = function(e){
-          // pause all the videos except the current.
-          document.querySelectorAll(".videoChar").forEach((el1) => {
-              if(el === el1)
-                  el1.play();
-              else
-                  el1.pause();
-          });
-      }
-  });
-}
+
 
 
 
