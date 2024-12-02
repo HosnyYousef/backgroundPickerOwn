@@ -3,20 +3,11 @@
 Mortal Combat character picker
 
 Tasks:
-- ~~add margin between both sides of videoPlaceholder and characters box (GET BACK TO THIS, REFINE)~~
-- ~~increase size of character name~~
-- ~~align character names~~
-- ~~center text~~
+- comment js section to learn how and why the JS was used (input in ANKI after to learn)
+- add a superimposed background
+- create seperate music that stops when a character is clicked (plays again after 5 seconds)
+- create better controller buttons or remove them
 
-- ~~cut video to seperate clips~~
-~~- store videos one by one on files (to be able to push)~~
-~~- create eventlisteners for clicks to correspond to each video~~
-
-~~- when I click away, I want character video to stop reset~~
-- Characters are all playing at the same time when one is pressed (even though they are hidden and not visable at the same time)
-
-
-~~- make sure that character box is always with video when shrinking the page~~
 - set default responsiveness
 - in @media, figure out how to make image sizes smaller at different dimensions
 - we will adjust #postionOfText
