@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This app helps youtubers pick the best background color for their videos">
+    	<meta name="keywords" content="youtube, background, lights">
+		<link rel="shortcut icon" href="#">
+
+		<title>Youtube Background Picker</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h1>Mortal Kombat Character Picker</h1>
+		<!-- <img src="img/chair.png" alt="generic youtube gaming chair"> -->
+
+<!-- backgound -->
+
+<!-- 18 character videos -->
+
+<!-- <div class="row align-items-center">
+	<div class="col align-self-center">
+		<div class="row" is="dmx-repeat" id="repeatVideos" dmx-bind:repeat="srvc_getVideos.data.qr_getVideos">
+			<div class="col-6 text-center">
+				<video class="videoChar" is="dmx-video" id="video" dmx-bind:id="'video' + $index" dmx-bind:src="video/characters/baraka.mov" controls="true" dmx-bind:width="400" dmx-on:play="run({runJS:{function:'pauseAllVideos',outputType:'text'}})"></video>
+			</div>
+		</div>
+	</div>
+</div> -->
+
+<section class="videos">
+
+	<video id="playVidPlayer1" class="videoChar" >
+		<source onclick="toggle();" src="video/characters/baraka.mov" type="video/webm" />
+	</video>
+
+	<video id="playVidPlayer2" class="videoChar" >
+		<source src="video/characters/subzero.mov" type="video/webm" />
+	</video>
+
+	<video id="playVidPlayer3" class="videoChar" >
+		<source src="video/characters/cyrax.mov" type="video/webm" />
+	</video>
+
+
+	<video id="playVidPlayer4" class="videoChar" >
+		<source src="video/characters/ermac.mov" type="video/webm" />
+	</video>
+
+
+	<video id="playVidPlayer5" class="videoChar" >
+		<source src="video/characters/freddykreuger.mov" type="video/webm" />
+	</video>
+
+	<video id="playVidPlayer6" class="videoChar" >
+		<source src="video/characters/goro.mov" type="video/webm" />
+	</video>
+
+
+	<video id="playVidPlayer7" class="videoChar" >
+		<source src="video/characters/raiden.mov" type="video/webm" />
+	</video>
+
+
+	<video id="playVidPlayer8" class="videoChar" >
+		<source src="video/characters/Jax.mov" type="video/webm" />
+	</video>
+
+
+	<video id="playVidPlayer9" class="videoChar" >
+		<source src="video/characters/johnnycage2.mov" type="video/webm" />
+	</video>
+
+
+	<video id="playVidPlayer10" class="videoChar" >
+		<source src="video/characters/kabal.mov" type="video/webm" />
+	</video>
+
+
+	<video id="playVidPlayer11" class="videoChar" >
+		<source src="video/characters/kano.mov" type="video/webm" />
+	</video>
+
+
+	<video id="playVidPlayer12" class="videoChar" >
+		<source src="video/characters/reptile.mov" type="video/webm" />
+	</video>
+
+
+	<video id="playVidPlayer13" class="videoChar" >
+		<source src="video/characters/kintaro.mov" type="video/webm" />
+	</video>
+
+
+	<video id="playVidPlayer14" class="videoChar" >
+		<source src="video/characters/kratos.mov" type="video/webm" />
+	</video>
+
+
+	<video id="playVidPlayer15" class="videoChar" >
+		<source src="video/characters/kunglao.mov" type="video/webm" />
+	</video>
+
+
+	<video id="playVidPlayer16" class="videoChar" >
+		<source src="video/characters/Liu Kang.mov" type="video/webm" />
+	</video>
+
+
+	<video id="playVidPlayer17" class="videoChar" >
+		<source src="video/characters/nightwolf2.mov" type="video/webm" />
+	</video>
+
+	<video id="playVidPlayer18" class="videoChar" >
+		<source src="video/characters/noobsaibot.mov" type="video/webm" />
+	</video>
+
+</section>
+
+<!-- control button press prompt -->
+<section id="charSelectionContainer">
+
+ <section id="AllCharacters">
+
+<section id="postionOfText">
+	<div id="chosenCharacterName">Char names</div>
+	<div id="pressXButtonToJoin">PRESS X TO JOIN</div>
+</section>
+
+<!-- 18 Characters images -->
+<!-- ROW 1 -->
+<section id="characterBox">
+	<!-- character 1 -->
+	<li class="characters">
+		<button class="charImage" onclick="display('playVidPlayer1')"><img id="player1" class="charImage videoSize" src="img/characters/baraka.png"   alt="charImg"></button>
+		<div class="charName">Baraka</div>
+
+	<!-- character 2 -->
+	<li class="characters">
+		<button class="charImage" onclick="display('playVidPlayer2')" ><img id="player2" class="charImage"src="img/characters/cybersubzero.png" alt="charImg"></button>
+		<div class="charName">Cyber Subzero</div>
+
+	</li>
+	<!-- character 3 -->
+	<li class="characters">
+		<button onclick="display('playVidPlayer3')" id="player3" class="charImage"><img class="charImage"src="img/characters/cyrax.png" alt="charImg"></button>
+		<div class="charName">Cyrax</div>
+
+	</li>
+	<!-- character 4 -->
+	<li class="characters">
+		<button onclick="display('playVidPlayer4')" id="player4" class="charImage"><img class="charImage"src="img/characters/ermac.png" alt="charImg"></button>
+		<div class="charName">Ermac</div>
+
+	</li>
+	<!-- character 5 -->
+	<li class="characters">
+		<button onclick="display('playVidPlayer5')" id="player5" class="charImage"><img class="charImage"src="img/characters/freddykreuger.png" alt="charImg"></button>
+		<div class="charName">Freddy Kreuger</div>
+
+	</li>
+	<!-- character 6 -->
+	<li class="characters">
+		<button onclick="display('playVidPlayer6')" id="player6" class="charImage"><img class="charImage"src="img/characters/goro.png" alt="charImg"></button>
+		<div class="charName">Goro</div>
+
+	</li>
+	<!-- character 7 -->
+	<li class="characters">
+		<button onclick="display('playVidPlayer7')" id="player7" class="charImage"><img class="charImage"src="img/characters/raiden.png" alt="charImg"></button>
+		<div class="charName">Raiden</div>
+
+	</li>
+	<!-- character 8 -->
+	<li class="characters">
+		<button onclick="display('playVidPlayer8')" id="player8" class="charImage"><img class="charImage"src="img/characters/jax.png" alt="charImg"></button>
+		<div class="charName">Jax</div>
+
+	</li>
+	<!-- character 9 -->
+	<li class="characters">
+		<button onclick="display('playVidPlayer9')" id="player9" class="charImage"><img class="charImage"src="img/characters/johnnycage.png" alt="charImg"></button>
+		<div class="charName">Johnny Cage</div>
+
+	</li>
+</section>
+
+<!-- ROW 2 -->
+<section id="characterBox2">
+	<!-- character 10 -->
+	<li class="characters">
+		<button onclick="display('playVidPlayer10')" id="player10" class="charImage"><img class="charImage"src="img/characters/kabal.png" alt="charImg"></button>
+		<div class="charName">Kabal</div>
+
+	</li>
+	<!-- character 11 -->
+	<li class="characters">
+		<button onclick="display('playVidPlayer11')" id="player11" class="charImage"><img class="charImage"src="img/characters/kano.png" alt="charImg"></button>
+		<div class="charName">Kano</div>
+
+	</li>
+	<!-- character 12 -->
+	<li class="characters">
+		<button onclick="display('playVidPlayer12')" id="player12" class="charImage"><img class="charImage"src="img/characters/reptile.png" alt="charImg"></button>
+		<div class="charName">Reptile</div>
+
+	</li>
+	<!-- character 13 -->
+	<li class="characters">
+		<button onclick="display('playVidPlayer13')" id="player13" class="charImage"><img class="charImage"src="img/characters/kintaro.png" alt="charImg"></button>
+		<div class="charName">Kintaro</div>
+
+	</li>
+	<!-- character 14 -->
+	<li class="characters">
+		<button onclick="display('playVidPlayer14')" id="player14" class="charImage"><img class="charImage"src="img/characters/kratos.png" alt="charImg"></button>
+		<div class="charName">Kratos</div>
+
+	</li>
+	<!-- character 15 -->
+	<li class="characters">
+		<button onclick="display('playVidPlayer15')" id="player15" class="charImage"><img class="charImage"src="img/characters/kunglao.png" alt="charImg"></button>
+		<div class="charName">Kung Lao</div>
+
+	</li>
+	<!-- character 16 -->
+	<li class="characters">
+		<button onclick="display('playVidPlayer16')" id="player16" class="charImage"><img class="charImage"src="img/characters/liukang.png" alt="charImg"></button>
+		<div class="charName">Liu Kang</div>
+
+	</li>
+	<!-- character 17 -->
+	<li class="characters">
+		<button onclick="display('playVidPlayer17')" id="player17" class="charImage"><img class="charImage"src="img/characters/nightwolf.png" alt="charImg"></button>
+		<div class="charName">Nightwolf</div>
+
+	</li>
+	<!-- character 18 -->
+	<li class="characters">
+		<button onclick="display('playVidPlayer18')" id="player18" id="lastElementChar" class="charImage"><img class="charImage"src="img/characters/noobsaibot.png" alt="charImg"></button>
+		<div class="charName">Noob Saibot</div>
+
+	</li>	
+</section>
+
+</section>
+
+</section>
+
+	<!--use these names in the other character boxes  -->
+	<!-- <li class="characters">Mew</li>
+	<li class="characters">Goku</li>
+	<li class="characters">Vegeta</li>
+	<li class="characters">Freiza</li>
+	<li class="characters">Raichu</li>
+	<li class="characters">Toad</li>
+	<li class="characters">Tails</li>
+	<li class="characters">Knuckles</li>
+	<li class="characters">Shadow</li> -->
+
+
+<!-- 1. Mew
+2. Goku
+3. Vegeta
+4. Freiza
+5. Raichu
+6. Toad
+7. Tails
+8. Knuckles
+9. Shadow -->
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
