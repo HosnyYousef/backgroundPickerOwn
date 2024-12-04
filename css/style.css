@@ -45,6 +45,12 @@ body {
   color: white;
 }
 
+/* #playVidPlayer0 {
+  background: #000000;
+  width: 1000%;
+  height: 5000px;
+} */
+
 body {
     /* background-image: url(../img/smokePlaceHolderWebsiteBackground2.png); */
     background-size: cover;
