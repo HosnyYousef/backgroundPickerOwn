@@ -5,7 +5,7 @@ Mortal Combat character picker
 Tasks:
 ~~- comment js section to learn how and why the JS was used (input in ANKI after to learn)~~
 ~~- add a superimposed background~~
-- Hide all characters from default/initial display/screen
+~~- Hide all characters from default/initial display/screen~~
 - create seperate music that stops when a character is clicked (plays again after 5 seconds)
 - create better controller buttons or remove them
 
