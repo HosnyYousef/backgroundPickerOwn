@@ -53,6 +53,11 @@ body {
   size: 100vw;
 }
 
+#loading {
+  visibility: hidden;
+}
+
+
 .videos{
   display: inline-flex;
   flex-wrap: wrap;
@@ -67,6 +72,7 @@ body {
   opacity: 1;
 }
 
+
 .videoChar{
   display: inline-flex;
   flex-wrap: wrap;
@@ -75,6 +81,7 @@ body {
   height: auto;
   width: 100vw;
 }
+
 
 
 
@@ -222,3 +229,4 @@ body {
   contain: size;
   contain-intrinsic-width: 100vw auto;
 } */
+
