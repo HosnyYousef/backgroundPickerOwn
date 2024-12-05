@@ -110,27 +110,13 @@ body {
 
 
 
-
-#defaultBackgroundVideo {
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: center;
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
   position: fixed;
-
-  /* float: left;
-  clear: both;   */
-  border: 3px solid rgb(0, 4, 255);
-  
-  margin: auto;
-  /* margin-top: 30%;
-  margin-bottom: 10%;
-  margin-left: 2%;
-  margin-right: 30%; */
-  height: 80vw;
-  width: 100vw;
-  /* width: 290em; */
-  /* contain: size;
-  contain-intrinsic-width: 100vw auto; */
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 #charSelectionContainer{
