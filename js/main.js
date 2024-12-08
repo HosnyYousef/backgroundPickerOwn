@@ -43,3 +43,6 @@
 
   function visablility() {    document.getElementById("loading").style.visibility = "visible";
   }
+
+  let vid = document.getElementById("myVideo");
+vid.volume = 0.8;
