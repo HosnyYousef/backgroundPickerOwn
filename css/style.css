@@ -57,10 +57,10 @@ body {
   visibility: hidden;
 }
 
-/* audio{
+audio{
   visibility: hidden;
   position:absolute;
-} */
+}
 
 .videos{
   display: inline-flex;

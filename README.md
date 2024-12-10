@@ -6,8 +6,8 @@ Tasks:
 ~~- comment js section to learn how and why the JS was used (input in ANKI after to learn)~~
 ~~- add a superimposed background~~
 ~~- Hide all characters from default/initial display/screen~~
-- create seperate music that stops when a character is clicked (plays again after 5 seconds)
-- create better controller buttons or remove them
+~~- Add background music~~
+
 
 - set default responsiveness
 - in @media, figure out how to make image sizes smaller at different dimensions
@@ -15,8 +15,14 @@ Tasks:
 - we will adjust #defaultBackgroundVideo
 - fix for iphone/phone responsiveness
 
-- Now trying to figure out how to stop all other videos to play
-- I also need to learn how to hide all other videos while one is playing
+~~- Now trying to figure out how to stop all other videos to play~~
+~~- I also need to learn how to hide all other videos while one is playing~~
+
+
+EXTRA:
+- remove background music from character video clips
+- create better controller buttons or remove them
+- add a mute button for audio option
 
 - Mortal kombat 9 Characters:
 	https://www.mksecrets.net/index.php?section=mk9&lang=eng&contentID=4843

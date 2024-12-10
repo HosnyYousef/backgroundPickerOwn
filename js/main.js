@@ -23,26 +23,8 @@
     }
   }
 
-// changing visability on click
-
-  // function loadpage (page_request, containerid)
-  // {
-  //   var loading = document.getElementsByClassName ( "videos" ) ;
-  
-  //   // when connecting to server
-  //   if ( page_request.readyState == 1 )
-  //       loading.style.visibility = "visible" ;
-  
-  //   // when loaded successfully
-  //   if (page_request.readyState == 4 && (page_request.status==200 || window.location.href.indexOf("http")==-1))
-  //   {
-  //       document.getElementById(containerid).innerHTML=page_request.responseText ;
-  //       loading.style.visibility = "hidden" ;
-  //   }
-  // }
-
   function visablility() {    document.getElementById("loading").style.visibility = "visible";
   }
 
   let vid = document.getElementById("myVideo");
-vid.volume = 0.8;
+vid.volume = 0.4;
